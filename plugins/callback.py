@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 import random
 
@@ -161,7 +161,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         )
     elif command == "Skip":
         check = db.get(chat_id)
-        txt = f"🌷 𝐒𝐨𝐧𝐠 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 𝐁𝐲 ⏩ {mention} !"
+        txt = f"🌷 sᴏɴɢ sᴋɪᴘᴘᴇᴅ ʙʏ ⏩ {mention} !"
         popped = None
         try:
             popped = check.pop(0)
@@ -170,7 +170,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     await auto_clean(popped)
             if not check:
                 await CallbackQuery.edit_message_text(
-                    f"🌷 𝐒𝐨𝐧𝐠 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 𝐁𝐲 ⏩ {mention} !"
+                    f"🌷 sᴏɴɢ sᴋɪᴘᴘᴇᴅ ʙʏ ⏩ {mention} !"
                 )
                 await CallbackQuery.message.reply_text(
                     _["admin_10"].format(mention)
@@ -182,12 +182,12 @@ async def del_back_playlist(client, CallbackQuery, _):
         except:
             try:
                 await CallbackQuery.edit_message_text(
-                    f"🌷 𝐒𝐨𝐧𝐠 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 𝐁𝐲 ⏩ {mention} !"
+                    f"🌷sᴏɴɢ sᴋɪᴘᴘᴇᴅ ʙʏ ⏩ {mention} !"
                 )
                 await CallbackQuery.message.reply_text(
                     _["admin_10"].format(mention)
                 )
-                return await Bikashh.stop_stream(chat_id)
+                return await Nobita.stop_stream(chat_id)
             except:
                 return
         await CallbackQuery.answer()
@@ -205,7 +205,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     _["admin_11"].format(title)
                 )
             try:
-                await Bikashh.skip_stream(chat_id, link, video=status)
+                await Nobita.skip_stream(chat_id, link, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
@@ -237,7 +237,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 return await mystic.edit_text(_["call_9"])
             try:
-                await Bikashh.skip_stream(
+                await Nobita.skip_stream(
                     chat_id, file_path, video=status
                 )
             except Exception:
@@ -258,7 +258,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await mystic.delete()
         elif "index_" in queued:
             try:
-                await Bikashh.skip_stream(
+                await Nobita.skip_stream(
                     chat_id, videoid, video=status
                 )
             except Exception:
@@ -276,7 +276,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await CallbackQuery.edit_message_text(txt)
         else:
             try:
-                await Bikashh.skip_stream(chat_id, queued, video=status)
+                await Nobita.skip_stream(chat_id, queued, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
@@ -347,7 +347,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             if (duration_played - duration_to_skip) <= 10:
                 bet = seconds_to_min(duration_played)
                 return await CallbackQuery.answer(
-                    f"🤖 𝐈 𝐚𝐦 𝐍𝐨𝐭 𝐀𝐛𝐥𝐞 𝐓𝐨 𝐒𝐞𝐞𝐤 𝐃𝐮𝐞 𝐓𝐨 𝐓𝐨𝐭𝐚𝐥 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐇𝐚𝐬 𝐁𝐞𝐞𝐧 𝐄𝐱𝐜𝐞𝐞𝐝𝐞𝐝.🔰\n\n✅ 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐏𝐥𝐚𝐲𝐞𝐝**{bet}** 🔊 𝐌𝐢𝐧𝐬 𝐎𝐮𝐭 𝐎𝐟 **{duration}** 𝐌𝐢𝐧𝐬. 🌷",
+                    f"🤖 ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ  ᴛᴏ sᴇᴇᴋ ᴅᴜᴇ ᴛᴏ ᴛᴏᴛᴀʟ ᴅᴜʀᴀᴛɪᴏɴ ʜᴀs ʙᴇᴇɴ ᴇxᴄᴇᴇᴅᴇᴅ.🔰\n\n✅ ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏᴇᴅ**{bet}** 🔊 ᴍɪɴs ᴏᴜᴛ ᴏғ **{duration}** ᴍɪɴs. 🌷",
                     show_alert=True,
                 )
             to_seek = duration_played - duration_to_skip + 1
@@ -358,7 +358,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             ) <= 10:
                 bet = seconds_to_min(duration_played)
                 return await CallbackQuery.answer(
-                    f"🤖 𝐈 𝐚𝐦 𝐍𝐨𝐭 𝐀𝐛𝐥𝐞 𝐓𝐨 𝐒𝐞𝐞𝐤 𝐃𝐮𝐞 𝐓𝐨 𝐓𝐨𝐭𝐚𝐥 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐇𝐚𝐬 𝐁𝐞𝐞𝐧 𝐄𝐱𝐜𝐞𝐞𝐝𝐞𝐝.🔰\n\n✅ 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐏𝐥𝐚𝐲𝐞𝐝** {bet}** 🔊 𝐌𝐢𝐧𝐬 𝐎𝐮𝐭 𝐎𝐟 **{duration}** 𝐌𝐢𝐧𝐬 🌷",
+                    f"🤖 ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ  ᴛᴏ sᴇᴇᴋ ᴅᴜᴇ ᴛᴏ ᴛᴏᴛᴀʟ ᴅᴜʀᴀᴛɪᴏɴ ʜᴀs ʙᴇᴇɴ ᴇxᴄᴇᴇᴅᴇᴅ.🔰\n\n✅ ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏᴇᴅ** {bet}** 🔊 ᴍɪɴs ᴏᴜᴛ ᴏғ **{duration}** ᴍɪɴs🌷",
                     show_alert=True,
                 )
             to_seek = duration_played + duration_to_skip + 1
@@ -371,7 +371,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             if n == 0:
                 return await mystic.edit_text(_["admin_30"])
         try:
-            await Bikashh.seek_stream(
+            await Nobita.seek_stream(
                 chat_id,
                 file_path,
                 seconds_to_min(to_seek),
@@ -386,5 +386,5 @@ async def del_back_playlist(client, CallbackQuery, _):
             db[chat_id][0]["played"] += duration_to_skip
         string = _["admin_33"].format(seconds_to_min(to_seek))
         await mystic.edit_text(
-            f"{string}\n\n✅ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐁𝐲 : {mention} 🌷"
+            f"{string}\n\n✅ ᴄʜᴀɴɢᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ʙʏ : {mention} 🎧"
         )
