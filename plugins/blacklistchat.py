@@ -1,19 +1,24 @@
-# # Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# # Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
+
+# Powered By @NOBI_XXD
+
+# ©️ Copy Right By NOBITA_XD
+
+# Any Problem To Report @AAPLI_YAARI
+
+# Bot Owner @NOBI_XXD 
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import (blacklist_chat,
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from Bikash.utils.decorators.language import language
+from Nobita.utils.decorators.language import language
 
 # Commands
 
@@ -52,7 +57,7 @@ async def white_funciton(client, message: Message, _):
     whitelisted = await whitelist_chat(chat_id)
     if whitelisted:
         return await message.reply_text(_["black_6"])
-    await message.reply_text("🌷 𝐒𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐖𝐫𝐨𝐧𝐠 🔍.")
+    await message.reply_text("🌷 sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ʙʜᴀɪ 🔍.")
 
 
 @app.on_message(
@@ -66,7 +71,7 @@ async def all_chats(client, message: Message, _):
         try:
             title = (await app.get_chat(chat_id)).title
         except Exception:
-            title = "𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭"
+            title = "ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ ʏᴀᴀʀ"
         j = 1
         text += f"**{count}. {title}** [`{chat_id}`]\n"
     if j == 0:
