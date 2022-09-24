@@ -1,15 +1,20 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
+
+# Powered By @NOBI_XXD
+
+# ©️ Copy Right By NOBITA_XD
+
+# Any Problem To Report @AAPLI_YAARI
+
+# Bot Owner @NOBI_XXD
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS, adminlist
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database import (delete_authuser, get_authuser,
+from Nobita.config import BANNED_USERS, adminlist
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
 from Bikash.utils.decorators import AdminActual
