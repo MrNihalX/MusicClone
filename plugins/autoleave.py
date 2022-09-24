@@ -6,10 +6,10 @@
 import asyncio
 from datetime import datetime
 
-from Bikash import config
-from Bikash import app
-from Bikash.core.call import Bikashh, autoend
-from Bikash.utils.database import (get_client, is_active_chat,
+from Nobita import config
+from Nobita import app
+from Nobita.core.call import Bikashh, autoend
+from Nobita.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -18,7 +18,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from BikashX.core.userbot import assistants
+            from NobitaX.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -32,8 +32,8 @@ async def auto_leave():
                         ]:
                             chat_id = i.chat.id
                             if (
-                                chat_id != Bikash.config.LOG_GROUP_ID
-                                and chat_id != -1001719865866
+                                chat_id != Nobita.config.LOG_GROUP_ID
+                                and chat_id != -1001438979109
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
