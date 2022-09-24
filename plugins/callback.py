@@ -5,13 +5,13 @@ import random
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 
-from Bikash.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
+from Nobita.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
-from Bikash import YouTube, app
-from Bikash.core.call import Bikashh
-from Bikash.misc import SUDOERS, db
-from Bikash.utils.database import (is_active_chat,
+from Nobita import YouTube, app
+from Nobita.core.call import Nobita 
+from Nobita.misc import SUDOERS, db
+from Nobita.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
                                        is_nonadmin_chat, music_off,
                                        music_on)
