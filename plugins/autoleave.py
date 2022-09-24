@@ -1,14 +1,19 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
+
+# Powered By @NOBI_XXD
+
+# ©️ Copy Right By NOBITA_XD
+
+# Any Problem To Report @AAPLI_YAARI
+
+# Bot Owner @NOBI_XXD 
 
 import asyncio
 from datetime import datetime
 
 from Nobita import config
 from Nobita import app
-from Nobita.core.call import Bikashh, autoend
+from Nobita.core.call import Nobita, autoend
 from Nobita.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
@@ -63,7 +68,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Bikashh.stop_stream(chat_id)
+                    await Nobita.stop_stream(chat_id)
                 except:
                     continue
                 try:
