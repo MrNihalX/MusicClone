@@ -1,8 +1,12 @@
-# # Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# # Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
+# Powered By @NOBI_XXD
+
+# ©️ Copy Right By NOBITA_XD
+
+# Any Problem To Report @AAPLI_YAARI
+
+# Bot Owner @NOBI_XXD
 from pyrogram import filters
 
 from Bikash import config
