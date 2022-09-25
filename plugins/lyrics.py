@@ -7,10 +7,10 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from Bikash.config import BANNED_USERS, lyrical
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.decorators.language import language
+from Nobita.config import BANNED_USERS, lyrical
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.utils.decorators.language import language
 
 ###Commands
 LYRICS_COMMAND = get_command("LYRICS_COMMAND")
