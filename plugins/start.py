@@ -235,11 +235,11 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
 ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏɪɴɢ ᴀ sᴏɴɢ.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 : [𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫](https://t.me/BikashHalder)
-┣★ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐇𝐚𝐥𝐝𝐞𝐫](https://t.me/AdityaHalder)
-┣★ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 » : [𝐁𝐠𝐭 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥](https://t.me/BikashGadgetsTech)
-┣★ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 » : [𝐁𝐠𝐭 𝐂𝐡𝐚𝐭](https://t.me/Bgt_Chat)
-┣★ 𝐂𝐡𝐚𝐭𓂸 » : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐃𝐢𝐬𝐜𝐮𝐬](https://t.me/AdityaDiscus)
+┣★ ᴏᴡɴᴇʀ xᴅ : [ɴᴏʙɪᴛᴀ_xᴅ](https://t.me/NOBI_XXD)
+┣★ ʙᴏᴛ ɴᴀᴍᴇ  : [ɴᴏʙɪᴛᴀ_ᴍᴜsɪᴄ](https://t.me/NOBITA_XD_MUSIC_BOT)
+┣★ ᴜᴘᴅᴀᴛᴇs » : [ɴᴏʙɪᴛᴀ_ʟᴏɢᴏ](https://t.me/Nobita_Logo) 
+┣★ sᴜᴘᴘᴏʀᴛ » : [ᴀʙᴏᴜᴛ_ɴᴏʙɪ](https://t.me/ABOUT_NOBITA_XD) 
+┣★ ᴄʜᴀᴛ  » : [ɴᴏʙɪᴛᴀ_ᴄʜᴀᴛ](https://t.me/AAPLI_YAARI) 
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝
@@ -270,11 +270,11 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
 𝐍𝐨 𝐋𝐚𝐠 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 : [𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫](https://t.me/BikashHalder)
-┣★ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐇𝐚𝐥𝐝𝐞𝐫](https://t.me/AdityaHalder)
-┣★ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 » : [𝐁𝐠𝐭 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥](https://t.me/BikashGadgetsTech)
-┣★ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 » : [𝐁𝐠𝐭 𝐂𝐡𝐚𝐭](https://t.me/Bgt_Chat)
-┣★ 𝐂𝐡𝐚𝐭𓂸 » : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐃𝐢𝐬𝐜𝐮𝐬](https://t.me/AdityaDiscus)
+┣★ ᴏᴡɴᴇʀ xᴅ : [ɴᴏʙɪᴛᴀ_xᴅ](https://t.me/NOBI_XXD)
+┣★ ʙᴏᴛ ɴᴀᴍᴇ  : [ɴᴏʙɪᴛᴀ_ᴍᴜsɪᴄ](https://t.me/NOBITA_XD_MUSIC_BOT)
+┣★ ᴜᴘᴅᴀᴛᴇs » : [ɴᴏʙɪᴛᴀ_ʟᴏɢᴏ](https://t.me/Nobita_Logo) 
+┣★ sᴜᴘᴘᴏʀᴛ » : [ᴀʙᴏᴜᴛ_ɴᴏʙɪ](https://t.me/ABOUT_NOBITA_XD) 
+┣★ ᴄʜᴀᴛ  » : [ɴᴏʙɪᴛᴀ_ᴄʜᴀᴛ](https://t.me/AAPLI_YAARI)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝
