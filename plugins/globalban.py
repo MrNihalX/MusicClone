@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 import asyncio
 import time
@@ -7,18 +7,18 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils import get_readable_time
-from Bikash.utils.database import (add_banned_user,
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils import get_readable_time
+from Nobita.utils.database import (add_banned_user,
                                        get_banned_count,
                                        get_banned_users,
                                        get_served_chats,
                                        is_banned_user,
                                        remove_banned_user)
-from Bikash.utils.decorators.language import language
+from Nobita.utils.decorators.language import language
 
 # Command
 GBAN_COMMAND = get_command("GBAN_COMMAND")
@@ -125,7 +125,7 @@ async def gbanned_list(client, message: Message, _):
     if counts == 0:
         return await message.reply_text(_["gban_10"])
     mystic = await message.reply_text(_["gban_11"])
-    msg = "𝐆 𝐁𝐚𝐧 𝐔𝐬𝐞𝐫𝐬:\n\n"
+    msg = "ɢ ʙᴀɴ ᴜsᴇʀs:\n\n"
     count = 0
     users = await get_banned_users()
     for user_id in users:
@@ -137,7 +137,7 @@ async def gbanned_list(client, message: Message, _):
             )
             msg += f"{count}➤ {user}\n"
         except Exception:
-            msg += f"{count}➤ [🌸 𝐔𝐧𝐟𝐞𝐭𝐜𝐡𝐞𝐝 𝐔𝐬𝐞𝐫 🌸]{user_id}\n"
+            msg += f"{count}➤ [🌸 ᴜɴғᴇᴛᴄʜᴇᴅ ᴜsᴇʀ 🌸]{user_id}\n"
             continue
     if count == 0:
         return await mystic.edit_text(_["gban_10"])
