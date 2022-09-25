@@ -1,14 +1,14 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command, get_string
-from Bikash import app
-from Bikash.utils.database import get_lang, set_lang
-from Bikash.utils.decorators import (ActualAdminCB, language,
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command, get_string
+from Nobita import app
+from Nobita.utils.database import get_lang, set_lang
+from Nobita.utils.decorators import (ActualAdminCB, language,
                                          languageCB)
 
 # Languages Available
@@ -18,7 +18,7 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🇦🇺 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 🇦🇺",
+            text="🇦🇺 ᴇɴɢʟɪsʜ 🇦🇺",
             callback_data=f"languages:en",
         ),
     )
@@ -70,16 +70,16 @@ async def language_markup(client, CallbackQuery, _):
     old = await get_lang(CallbackQuery.message.chat.id)
     if str(old) == str(langauge):
         return await CallbackQuery.answer(
-            "🍁 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐔𝐬𝐢𝐧𝐠 𝐓𝐡𝐢𝐬 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 🍁", show_alert=True
+            "🍁 ᴀʟʀᴇᴀᴅʏ ᴜsɪɴɢ ᴛʜɪs ʟᴀɴɢᴜᴀɢᴇ 🍁", show_alert=True
         )
     try:
         _ = get_string(langauge)
         await CallbackQuery.answer(
-            "💥 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐂𝐡𝐚𝐧𝐠𝐞𝐝 💥.", show_alert=True
+            "💥 ʟᴀɴɢᴜᴀɢᴇ ᴄʜᴀɴɢᴇᴅ 💥.", show_alert=True
         )
     except:
         return await CallbackQuery.answer(
-            "🔇 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐂𝐡𝐚𝐧𝐠𝐞 𝐅𝐚𝐢𝐥𝐞𝐝 ❌.",
+            "🔇 ʟᴀɴɢᴜᴀɢᴇ ᴄʜᴀɴɢᴇ ғᴀɪʟᴇᴅ ❌.",
             show_alert=True,
         )
     await set_lang(CallbackQuery.message.chat.id, langauge)
