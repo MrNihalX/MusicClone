@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import os
 import re
@@ -13,13 +13,13 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaAudio,
                             InputMediaVideo, Message)
 
-from Bikash.config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
+from Nobita.config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from Bikash.strings import get_command
-from Bikash import YouTube, app
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.formatters import convert_bytes
-from Bikash.utils.inline.song import song_markup
+from Nobita.strings import get_command
+from Nobita import YouTube, app
+from Nobita.utils.decorators.language import language, languageCB
+from Nobita.utils.formatters import convert_bytes
+from Nobita.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
