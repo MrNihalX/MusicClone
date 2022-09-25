@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.strings import get_command, get_string
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import (get_lang, is_maintenance,
+from Nobita.strings import get_command, get_string
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import (get_lang, is_maintenance,
                                        maintenance_off,
                                        maintenance_on)
-from Bikash.utils.decorators.language import language
+from Nobita.utils.decorators.language import language
 
 # Commands
 MAINTENANCE_COMMAND = get_command("MAINTENANCE_COMMAND")
@@ -29,7 +29,7 @@ async def maintenance(client, message: Message):
     if state == "enable":
         if await is_maintenance() is False:
             await message.reply_text(
-                "📍 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐜𝐞 𝐌𝐨𝐝𝐞 𝐈𝐬 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐄𝐧𝐚𝐛𝐥𝐞𝐝 ✅."
+                "📍 ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ ✅."
             )
         else:
             await maintenance_on()
@@ -40,7 +40,7 @@ async def maintenance(client, message: Message):
             await message.reply_text(_["maint_3"])
         else:
             await message.reply_text(
-                "🌷 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐜𝐞 𝐌𝐨𝐝𝐞 𝐈𝐬 𝐃𝐢𝐬𝐚𝐛𝐥𝐞𝐝 ❌."
+                "🌷 ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴅɪsᴀʙʟᴇᴅ ❌."
             )
     else:
         await message.reply_text(usage)
