@@ -111,7 +111,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} 𝐇𝐚𝐬 𝐉𝐮𝐬𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐁𝐢𝐤𝐚𝐬𝐡 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 <code>SUDOLIST</code>\n\n**🆔 𝐔𝐬𝐞𝐫 𝐈𝐝:** {sender_id}\n**👑 𝐔𝐬𝐞𝐫 𝐍𝐚𝐦𝐞:** {sender_name}",
+                    f"{message.from_user.mention} 𝐇𝐚𝐬 ʜᴀs ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ᴄʜᴇᴄᴋ  <code>SUDOLIST</code>\n\n**🆔 ᴜsᴇʀ ɪᴅ:** {sender_id}\n**👑 ᴜsᴇʀ ɴᴀᴍᴇ:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -122,12 +122,12 @@ async def start_comm(client, message: Message, _):
                 return await Telegram.send_split_text(message, lyrics)
             else:
                 return await message.reply_text(
-                    "⚜️ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐆𝐞𝐭 𝐋𝐲𝐫𝐢𝐜𝐬 ❌."
+                    "⚜️ ғᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ʟʏʀɪᴄs ❌."
                 )
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎 𝐅𝐞𝐭𝐜𝐡𝐢𝐧𝐠 Info!")
+            m = await message.reply_text("🔎 sᴇᴀʀᴄʜɪɴɢ Info!")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -143,9 +143,9 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-__**🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐕𝐢𝐝𝐞𝐨 𝐓𝐫𝐚𝐜𝐤 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 🌷**__
+__**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 🌷**__
                         
-                ❰ 𝐁𝐢𝐤𝐚𝐬𝐡 ⚜️ 𝐏𝐥𝐚𝐲𝐞𝐫 ❱
+                ❰ sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ⚜️ ᴘʟᴀʏᴇʀ ❱
                         
 📌**𝐓𝐢𝐭𝐥𝐞:** {title}
 
