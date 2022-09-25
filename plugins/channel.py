@@ -1,13 +1,13 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database import set_cmode
-from Bikash.utils.decorators.admins import AdminActual
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.utils.database import set_cmode
+from Nobita.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
@@ -30,7 +30,7 @@ async def playmode_(client, message: Message, _):
     query = message.text.split(None, 2)[1].lower().strip()
     if (str(query)).lower() == "disable":
         await set_cmode(message.chat.id, None)
-        return await message.reply_text(f"📌 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐢𝐬𝐚𝐛𝐥𝐞𝐝 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐏𝐥𝐚𝐲 ✅ 𝐁𝐲 {message.from_user.first_name} 🔰 𝐈𝐧 {message.chat.title} 🥀")
+        return await message.reply_text(f"📌 sᴜᴄᴄᴇssғᴜʟʟʏ ᴅɪsᴀʙʟᴇᴅ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ  ✅ ʙʏ {message.from_user.first_name} 🔰 ɪɴ {message.chat.title} 🥀")
     elif str(query) == "linked":
         chat = await app.get_chat(message.chat.id)
         if chat.linked_chat:
