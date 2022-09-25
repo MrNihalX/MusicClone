@@ -1,22 +1,22 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import asyncio
 
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, Message
 
-from Bikash.config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.core.call import Bikashh
-from Bikash.misc import db
-from Bikash.utils.database import get_authuser_names, get_cmode
-from Bikash.utils.decorators import (ActualAdminCB, AdminActual,
+from Nobita.config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.core.call import Nobita 
+from Nobita.misc import db
+from Nobita.utils.database import get_authuser_names, get_cmode
+from Nobita.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from Bikash.utils.formatters import alpha_to_int
+from Nobita.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
@@ -47,7 +47,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "🌷𝐀𝐝𝐦𝐢𝐧 𝐋𝐢𝐬𝐭 𝐑𝐞𝐟𝐫𝐞𝐬𝐡 𝐅𝐚𝐢𝐥𝐞𝐝 ❌, 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐏𝐫𝐨𝐦𝐨𝐭𝐞𝐝 𝐓𝐡𝐞 𝐁𝐢𝐤𝐚𝐬𝐡 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐲 ✅."
+            "🌷ᴀᴅᴍɪɴ ʟɪsᴛ ʀᴇғʀᴇsʜ ғᴀɪʟᴇᴅ ❌, ᴍᴀᴋᴇ sᴜʀᴜ ʏᴏᴜ ᴘʀᴏᴍᴏᴛᴇᴅ ᴛʜᴇ sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ ʙᴏᴛ ✅."
         )
 
 
@@ -60,7 +60,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"🌷 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ,{MUSIC_BOT_NAME} 𝐈𝐬 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭 ♻️."
+        f"🌷 ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴ ,{MUSIC_BOT_NAME} ɪs ʀᴇsᴛᴀʀᴛɪɴɢ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ♻️."
     )
     await asyncio.sleep(1)
     try:
@@ -80,7 +80,7 @@ async def restartbot(client, message: Message, _):
         except:
             pass
     return await mystic.edit_text(
-        f"🌷𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ✅ {MUSIC_BOT_NAME} 𝐈𝐬 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭, 🌸 𝐍𝐨𝐰 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐁𝐨𝐭 𝐀𝐠𝐚𝐢𝐧 & 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐀𝐠𝐚𝐢𝐧 ✅..."
+        f"🌷sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇsᴛᴀʀᴛᴇᴅ ✅ {MUSIC_BOT_NAME} ɪs ʏᴏᴜʀ ᴄʜᴀᴛ, 🌸 ɴᴏᴡ sᴛᴀʀᴛᴇᴅ ʙᴏᴛ ᴀɢᴀɪɴ & ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ ✅..."
     )
 
 
@@ -111,11 +111,11 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
     task = lyrical.get(message_id)
     if not task:
         return await CallbackQuery.answer(
-            "🌷 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐃𝐨𝐧𝐞 ✅.", show_alert=True
+            "🌷 ᴅᴏᴡɴʟᴏᴀᴅ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ✅.", show_alert=True
         )
     if task.done() or task.cancelled():
         return await CallbackQuery.answer(
-            "🌷 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐃𝐨𝐧𝐞 ✅  & 𝐂𝐚𝐧𝐜𝐞𝐥 ❌.",
+            "🌷 ᴅᴏᴡɴʟᴏᴀᴅ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ✅  & ᴄᴀɴᴄʟᴇ ❌.",
             show_alert=True,
         )
     if not task.done():
@@ -126,15 +126,15 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
             except:
                 pass
             await CallbackQuery.answer(
-                "🔰 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝 𝐂𝐥𝐨𝐬𝐞 ❌.", show_alert=True
+                "🔰 ᴅᴏᴡɴʟᴏᴀᴅ ᴄʟᴏsᴇ  ❌.", show_alert=True
             )
             return await CallbackQuery.edit_message_text(
-                f"📌 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐂𝐥𝐨𝐬𝐞𝐝 𝐁𝐲 {CallbackQuery.from_user.mention} ❌"
+                f"📌 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄʟᴏsᴇ ʙʏ {CallbackQuery.from_user.mention} ❌"
             )
         except:
             return await CallbackQuery.answer(
-                "🌷 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝 𝐂𝐥𝐨𝐬𝐞 𝐅𝐚𝐢𝐥𝐞𝐝 ❌ 𝐂𝐥𝐨𝐬𝐞 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝𝐢𝐧𝐠...", show_alert=True
+                "🌷 ᴅᴏᴡɴʟᴏᴀᴅ ᴄʟᴏsᴇ ғᴀɪʟᴅ ❌ ᴄʟᴏsᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...", show_alert=True
             )
     await CallbackQuery.answer(
-        "🌷 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐑𝐞𝐜𝐨𝐠𝐧𝐢𝐳𝐞 𝐓𝐡𝐞 𝐎𝐧𝐠𝐨𝐢𝐧𝐠 𝐓𝐚𝐬𝐤 📌.", show_alert=True
+        "🌷 ғᴀɪʟᴅ ᴛᴏ ʀᴇᴄᴏɢɴɪᴢᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴛᴀsᴋ 📌.", show_alert=True
     )
