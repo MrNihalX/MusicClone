@@ -1,18 +1,18 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import asyncio
 
 from pyrogram.types import InlineKeyboardMarkup
 
-from Bikash.strings import get_string
-from Bikash.misc import db
-from Bikash.utils.database import (get_active_chats, get_lang,
+from Nobita.strings import get_string
+from Nobita.misc import db
+from Nobita.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
-from Bikash.utils.formatters import seconds_to_min
-from Bikash.utils.inline import (stream_markup_timer,
+from Nobita.utils.formatters import seconds_to_min
+from Nobita.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
 from plugins.callback import wrong
