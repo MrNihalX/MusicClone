@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 
 import asyncio
@@ -11,9 +11,9 @@ import speedtest
 import wget
 from pyrogram import filters
 
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
 
 # Commands
 SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
