@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import random
 import string
@@ -12,24 +12,24 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
                             Message)
 from pytgcalls.exceptions import NoActiveGroupCall
 
-from Bikash import config
-from Bikash.config import BANNED_USERS, lyrical
-from Bikash.strings import get_command
-from Bikash import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from Nobita import config
+from Nobita.config import BANNED_USERS, lyrical
+from Nobita.strings import get_command
+from Nobita import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from Bikash.core.call import Bikashh
-from Bikash.utils import seconds_to_min, time_to_seconds
-from Bikash.utils.channelplay import get_channeplayCB
-from Bikash.utils.database import is_video_allowed
-from Bikash.utils.decorators.language import languageCB
-from Bikash.utils.decorators.play import PlayWrapper
-from Bikash.utils.formatters import formats
-from Bikash.utils.inline.play import (livestream_markup,
+from Nobita.core.call import Nobita 
+from Nobita.utils import seconds_to_min, time_to_seconds
+from Nobita.utils.channelplay import get_channeplayCB
+from Nobita.utils.database import is_video_allowed
+from Nobita.utils.decorators.language import languageCB
+from Nobita.utils.decorators.play import PlayWrapper
+from Nobita.utils.formatters import formats
+from Nobita.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from Bikash.utils.inline.playlist import botplaylist_markup
-from Bikash.utils.logger import play_logs
-from Bikash.utils.stream.stream import stream
+from Nobita.utils.inline.playlist import botplaylist_markup
+from Nobita.utils.logger import play_logs
+from Nobita.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
