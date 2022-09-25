@@ -1,20 +1,20 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash import config
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import (add_private_chat,
+from Nobita import config
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import (add_private_chat,
                                        get_private_served_chats,
                                        is_served_private_chat,
                                        remove_private_chat)
-from Bikash.utils.decorators.language import language
+from Nobita.utils.decorators.language import language
 
 AUTHORIZE_COMMAND = get_command("AUTHORIZE_COMMAND")
 UNAUTHORIZE_COMMAND = get_command("UNAUTHORIZE_COMMAND")
