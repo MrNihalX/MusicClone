@@ -10,7 +10,7 @@ from Nobita import config
 from Nobita.config import BANNED_USERS
 from Nobita.strings import get_command
 from Nobita import YouTube, app
-from Nobita.core.call import Bikashh
+from Nobita.core.call import Nobita
 from Nobita.misc import db
 from Nobita.utils.database import get_loop
 from Nobita.utils.decorators import AdminRightsCheck
