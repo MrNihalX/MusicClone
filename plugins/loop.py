@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database.memorydatabase import (get_loop,
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from Bikash.utils.decorators import AdminRightsCheck
+from Nobita.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
