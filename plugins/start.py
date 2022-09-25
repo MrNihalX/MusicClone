@@ -1,4 +1,4 @@
-# Powered By @BikashHalder NOBITA_XD 
+# Powered By  NOBITA_XD 
 # ©️ Copy Right By NOBITA_XD 
 # Any Problem To Report NOBITA_XD 
 # Bot Owner NOBITA_XD 
@@ -232,7 +232,7 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
         photo=f"https://telegra.ph/file/c109030256a4526907118.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 🎧 ʜᴇʏ, ɪ ᴀᴍ sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ sᴜᴘᴇʀғᴀsᴛ ʜɪɢʜ ϙᴜᴀʟɪᴛʏ
-𝐍𝐨 𝐋𝐚𝐠 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭.
+ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏɪɴɢ ᴀ sᴏɴɢ.
 
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 : [𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫](https://t.me/BikashHalder)
