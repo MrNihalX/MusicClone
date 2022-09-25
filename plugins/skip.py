@@ -1,23 +1,23 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Bikash import config
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import YouTube, app
-from Bikash.core.call import Bikashh
-from Bikash.misc import db
-from Bikash.utils.database import get_loop
-from Bikash.utils.decorators import AdminRightsCheck
-from Bikash.utils.inline.play import (stream_markup,
+from Nobita import config
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import YouTube, app
+from Nobita.core.call import Bikashh
+from Nobita.misc import db
+from Nobita.utils.database import get_loop
+from Nobita.utils.decorators import AdminRightsCheck
+from Nobita.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Bikash.utils.stream.autoclear import auto_clean
-from Bikash.utils.thumbnails import gen_thumb
+from Nobita.utils.stream.autoclear import auto_clean
+from Nobita.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
