@@ -1,17 +1,17 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.core.call import Bikashh as Anon
-from Bikash.utils.database import is_music_playing, music_off
-from Bikash.utils.decorators import AdminRightsCheck
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.core.call import Nobita as Anon
+from Nobita.utils.database import is_music_playing, music_off
+from Nobita.utils.decorators import AdminRightsCheck
 
 # Commands
 PAUSE_COMMAND = get_command("PAUSE_COMMAND")
