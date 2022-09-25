@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 import asyncio
 import math
@@ -15,15 +15,15 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
-from Bikash import config
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import HAPP, SUDOERS, XCB
-from Bikash.utils.database import (get_active_chats,
+from Nobita import config
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import HAPP, SUDOERS, XCB
+from Nobita.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from Bikash.utils.decorators.language import language
-from Bikash.utils.pastebin import Bikashhbin
+from Nobita.utils.decorators.language import language
+from Nobita.utils.pastebin import Bikashhbin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
@@ -205,13 +205,13 @@ async def usage_dynos(client, message, _):
     AppMinutes = math.floor(AppQuotaUsed % 60)
     await asyncio.sleep(1.5)
     text = f"""
-**🔰 𝐃𝐲𝐧𝐨 𝐔𝐬𝐚𝐠𝐞 🔰**
+**🔰 ᴅʏɴᴏ ᴜsᴀɢᴇs 🔰**
 
-<u>𝐔𝐬𝐚𝐠𝐞:</u>
-🌷 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐝: `{AppHours}`**🏘️**  `{AppMinutes}`**⏱️**  [`{AppPercentage}`**⚖️**]
+<u>ᴜsᴀɢᴇ:</u>
+🌷 ᴛᴏᴛᴀʟ ᴜsᴇᴅ: `{AppHours}`**🏘️**  `{AppMinutes}`**⏱️**  [`{AppPercentage}`**⚖️**]
 
-<u>🔰 𝐑𝐞𝐦𝐚𝐢𝐧𝐢𝐧𝐠 𝐐𝐮𝐨𝐭𝐚 🔰:</u>
-🌷 𝐓𝐨𝐭𝐚𝐥 𝐋𝐞𝐟𝐭: `{hours}`**🏘️**  `{minutes}`**⏱️**  [`{percentage}`**%**]"""
+<u>🔰 ʀᴇᴍᴀɪɴɪɴɢ ϙᴜᴏᴛᴀ 🔰:</u>
+🌷 ᴛᴏᴛᴀʟ ʟᴇғᴛ : `{hours}`**🏘️**  `{minutes}`**⏱️**  [`{percentage}`**%**]"""
     return await dyno.edit(text)
 
 
@@ -240,7 +240,7 @@ async def update_(client, message, _):
     ):
         verification = str(checks.count())
     if verification == "":
-        return await response.edit("🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐈𝐬 𝐔𝐩-𝐓𝐨-𝐃𝐚𝐭𝐞 🍁 !")
+        return await response.edit("🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ 🍁 !")
     updates = ""
     ordinal = lambda format: "%d%s" % (
         format,
@@ -254,13 +254,13 @@ async def update_(client, message, _):
     for info in repo.iter_commits(
         f"HEAD..origin/{config.UPSTREAM_BRANCH}"
     ):
-        updates += f"<b>➪ #{info.count()}: [{info.summary}]({REPO_}/commit/{info}) 𝐁𝐲 ➪ {info.author}</b>\n\t\t\t\t<b>➪ 𝐂𝐨𝐦𝐦𝐢𝐭𝐞𝐝 𝐎𝐧:</b> {ordinal(int(datetime.fromtimestamp(info.committed_date).strftime('%d')))} {datetime.fromtimestamp(info.committed_date).strftime('%b')}, {datetime.fromtimestamp(info.committed_date).strftime('%Y')}\n\n"
-    _update_response_ = "<b>📌 𝐍𝐞𝐰 𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞 𝐈𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 🇮🇳 !</b>\n\n✈︎💡 𝐏𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐓𝐡𝐞 𝐁𝐨𝐭 📍</code>\n\n**<u>📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📍:</u>**\n\n"
+        updates += f"<b>➪ #{info.count()}: [{info.summary}]({REPO_}/commit/{info}) ʙʏ ➪ {info.author}</b>\n\t\t\t\t<b>➪ ᴄᴏᴍᴍɪᴛᴇᴅ ᴏɴ:</b> {ordinal(int(datetime.fromtimestamp(info.committed_date).strftime('%d')))} {datetime.fromtimestamp(info.committed_date).strftime('%b')}, {datetime.fromtimestamp(info.committed_date).strftime('%Y')}\n\n"
+    _update_response_ = "<b>📌 ɴᴇᴡ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ 🇮🇳 !</b>\n\n✈︎💡 ᴘʟᴇᴀsᴇ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ʙᴏᴛ 📍</code>\n\n**<u>📡 ᴜᴘᴅᴀᴛᴇs 📍:</u>**\n\n"
     _final_updates_ = _update_response_ + updates
     if len(_final_updates_) > 4096:
         url = await Bikashhbin(updates)
         nrs = await response.edit(
-            f"<b>📌 𝐍𝐞𝐰 𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞 𝐈𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 🇮🇳 !</b>\n\n➪💡 𝐏𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 𝐓𝐡𝐞 𝐁𝐨𝐭 📍</code>\n\n**<u>📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📍:</u>**\n\n[𝐂𝐡𝐞𝐜𝐤 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡]({url})"
+            f"<b>📌 ɴᴇᴡ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ 🇮🇳 !</b>\n\n➪💡 ᴘʟᴇᴀsᴇ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ʙᴏᴛ 📍</code>\n\n**<u>📡 ᴜᴘᴅᴀᴛᴇs 📍:</u>**\n\n[ᴄʜᴇᴄᴋ ᴜᴘᴅᴀᴛᴇs 📡]({url})"
         )
     else:
         nrs = await response.edit(
