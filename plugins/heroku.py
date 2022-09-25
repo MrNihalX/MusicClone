@@ -274,14 +274,14 @@ async def update_(client, message, _):
                 try:
                     await app.send_message(
                         x,
-                        f"{config.MUSIC_BOT_NAME} 𝐖𝐚𝐬 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ♻️. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️.\n\n🌷 𝐀𝐟𝐭𝐞𝐫 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 𝐘𝐨𝐮 𝐏𝐥𝐚𝐲 𝐀𝐠𝐚𝐢𝐧 🔊",
+                        f"{config.MUSIC_BOT_NAME} ᴡᴀs ʀᴇsᴛᴀʀᴛᴇᴅ ♻️. ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴᴜᴛᴇs  ⏱️.\n\n🌷 ᴀғᴛᴇʀ ғᴇᴡ ᴍɪɴᴜᴛᴇs ᴘʟᴀʏ ᴀɢᴀɪɴ  🔊",
                     )
                     await remove_active_chat(x)
                     await remove_active_video_chat(x)
                 except Exception:
                     pass
             await response.edit(
-                f"{nrs.text}\n\n💥 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅ ! 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️"
+                f"{nrs.text}\n\n💥 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅ ! ɴᴏᴡ ʏᴏᴜ ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴᴜᴛᴇs ⏱️"
             )
             os.system(
                 f"{XCB[5]} {XCB[7]} {XCB[9]}{XCB[4]}{XCB[0]*2}{XCB[6]}{XCB[4]}{XCB[8]}{XCB[1]}{XCB[5]}{XCB[2]}{XCB[6]}{XCB[2]}{XCB[3]}{XCB[0]}{XCB[10]}{XCB[2]}{XCB[5]} {XCB[11]}{XCB[4]}{XCB[12]}"
