@@ -1,13 +1,13 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
                             InlineQueryResultPhoto)
 from youtubesearchpython.__future__ import VideosSearch
 
-from Bikash.config import BANNED_USERS, MUSIC_BOT_NAME
-from Bikash import app
-from Bikash.utils.inlinequery import answer
+from Nobita.config import BANNED_USERS, MUSIC_BOT_NAME
+from Nobita import app
+from Nobita.utils.inlinequery import answer
 
 
 @app.on_inline_query(~BANNED_USERS)
@@ -40,22 +40,22 @@ async def inline_query_handler(client, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="📺 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📺",
+                            text="📺 ʏᴏᴜᴛᴜʙᴇ 📺",
                             url=link,
                         )
                     ],
                 ]
             )
             searched_text = f"""
-📌 **𝐓𝐢𝐭𝐥𝐞:** [{title}]({link})
+📌 **ᴛɪᴛᴀʟ:** [{title}]({link})
 
-⏳ **𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧:** {duration} Mins
-👀 **𝐕𝐢𝐞𝐰𝐬:** `{views}`
-⏰ **𝐏𝐮𝐛𝐥𝐢𝐬𝐡𝐞𝐝 𝐓𝐢𝐦𝐞 :** {published}
-📡 **𝐂𝐡𝐚𝐧𝐧𝐞𝐥:** {channel}
-📎 **𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐋𝐢𝐧𝐤:** [👀 𝐒𝐞𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📺]({channellink})
+⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} Mins
+👀 **ᴠɪᴇᴡs:** `{views}`
+⏰ **ᴘᴜʙʟɪsʜᴇᴅ ᴛɪᴍᴇ :** {published}
+📡 **ᴄʜᴀɴɴᴇʟ:** {channel}
+📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [👀 sᴇᴇ ᴄʜᴀɴɴᴇʟ 📺]({channellink})
 
-🔍 ** 𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐲 🌷 {MUSIC_BOT_NAME}**"""
+🔍 ** ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ʙʏ 🌷 {MUSIC_BOT_NAME}**"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
