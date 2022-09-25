@@ -289,11 +289,11 @@ async def update_(client, message, _):
             return
         except Exception as err:
             await response.edit(
-                f"{nrs.text}\n\n💡 𝐒𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐖𝐞𝐧𝐭 𝐖𝐫𝐨𝐧𝐠 𝐖𝐡𝐞𝐧 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐓𝐡𝐞 𝐁𝐨𝐭 ♻️, 🔰 𝐂𝐡𝐞𝐜𝐤 𝐘𝐨𝐮𝐫 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐒𝐞𝐞 𝐖𝐡𝐚𝐭 𝐈𝐬 𝐖𝐫𝐨𝐧𝐠 ❓."
+                f"{nrs.text}\n\n💡 sᴏᴍᴇᴛʜɪɴɢ ᴡᴀɴᴛ ᴡʀᴏɴɢ ᴡʜᴇɴ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ♻️, 🔰 ᴄʜᴇᴄᴋ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴡʜᴀᴛ ɪs ᴡʀᴏɴɢ ❓."
             )
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"🔰 𝐀𝐧 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝 𝐀𝐭 👉 #𝐔𝐩𝐝𝐚𝐭𝐞 𝐃𝐮𝐞 𝐓𝐨 📡: <code>{err}</code>",
+                f"🔰 ᴀɴ ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ ᴀᴛ 👉 #ᴜᴘᴅᴀᴛᴇ ᴅᴜᴇ ᴛᴏ 📡: <code>{err}</code>",
             )
     else:
         served_chats = await get_active_chats()
@@ -301,14 +301,14 @@ async def update_(client, message, _):
             try:
                 await app.send_message(
                     x,
-                    f"{config.MUSIC_BOT_NAME} 𝐖𝐚𝐬 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ♻️. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️.\n\n🌷 𝐀𝐟𝐭𝐞𝐫 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 𝐘𝐨𝐮 𝐏𝐥𝐚𝐲 𝐀𝐠𝐚𝐢𝐧 🔊",
+                    f"{config.MUSIC_BOT_NAME} ᴡᴀs ʀᴇsᴛᴀʀᴇᴅ ♻️. ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴ ⏱️.\n\n🌷 ᴀғᴛᴇʀ ғᴇᴡ ᴍɪɴ ᴘʟᴀʏ ᴀɢᴀɪɴ 🔊",
                 )
                 await remove_active_chat(x)
                 await remove_active_video_chat(x)
             except Exception:
                 pass
         await response.edit(
-            f"{nrs.text}\n\n💥 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅ ! 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️"
+            f"{nrs.text}\n\n💥 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ  ✅ ! ɴᴏᴡ ʏᴏᴜ ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴ ⏱️"
         )
         os.system("pip3 install -r requirements.txt")
         os.system(f"kill -9 {os.getpid()} && bash start")
@@ -317,13 +317,13 @@ async def update_(client, message, _):
 
 @app.on_message(filters.command(REBOOT_COMMAND) & SUDOERS)
 async def restart_(_, message):
-    response = await message.reply_text("🥀 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 ✅")
+    response = await message.reply_text("🥀 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ ✅")
     served_chats = await get_active_chats()
     for x in served_chats:
         try:
             await app.send_message(
                 x,
-                f"{config.MUSIC_BOT_NAME} 𝐖𝐚𝐬 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ♻️. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️.\n\n🌷 𝐀𝐟𝐭𝐞𝐫 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 𝐘𝐨𝐮 𝐏𝐥𝐚𝐲 𝐀𝐠𝐚𝐢𝐧 🔊",
+                f"{config.MUSIC_BOT_NAME} ᴡᴀs ʀᴇsᴛᴀʀᴛᴇᴅ ♻️. ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴ ⏱️.\n\n🌷 ᴀғᴛᴇʀ ғᴇᴡ ᴍɪɴ ᴘʟᴀʏ ᴀɢᴀɪɴ 🔊",
             )
             await remove_active_chat(x)
             await remove_active_video_chat(x)
@@ -339,6 +339,6 @@ async def restart_(_, message):
     except:
         pass
     await response.edit(
-        "✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 ♻️, 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️."
+        "✅ sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴀʀᴛᴇᴅ ʀᴇsᴛᴀʀᴛ ᴘʀᴏᴄᴇss ♻️, ᴡᴀɪᴛ ғᴇᴡ ᴍɪɴ ⏱️."
     )
     os.system(f"kill -9 {os.getpid()} && bash start")
