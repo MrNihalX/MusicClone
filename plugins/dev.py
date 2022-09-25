@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 import os
 import re
@@ -13,8 +13,8 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from Bikash import app
-from Bikash.misc import SUDOERS
+from Nobita import app
+from Nobita.misc import SUDOERS
 
 
 async def aexec(code, client, message):
@@ -40,7 +40,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 async def executor(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="🌷𝐎𝐢 𝐆𝐢𝐯𝐞 𝐌𝐞 𝐒𝐨𝐦𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 🌿 𝐄𝐱𝐞𝐜𝐮𝐭𝐞 𝐁𝐲 𝐌𝐞 ❓**"
+            message, text="🌷sɪʀ ɢɪʙᴇ ᴍᴇ ᴀ sᴏᴍᴇ ᴄᴏᴍᴍᴀɴᴅ 🌿 ᴇxᴇᴄᴜᴛᴇ ʙʏ ᴍᴇ❓**"
         )
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
@@ -128,7 +128,7 @@ async def forceclose_command(_, CallbackQuery):
     if CallbackQuery.from_user.id != int(user_id):
         try:
             return await CallbackQuery.answer(
-                "🔰 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐍𝐨𝐭 𝐀𝐜𝐜𝐞𝐬𝐬 𝐓𝐡𝐞 𝐂𝐥𝐨𝐬𝐞 🚫.", show_alert=True
+                "🔰 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴄᴄᴇss ᴛʜᴇ ᴄʟᴏsᴇ 🚫.", show_alert=True
             )
         except:
             return
@@ -148,7 +148,7 @@ async def forceclose_command(_, CallbackQuery):
 async def shellrunner(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-                message, text="🌸 𝐓𝐫𝐲 🌸 :\n/sh git pull"
+                message, text="🌸 ᴛʀʏ 🌸 :\n/sh git pull"
         )
     text = message.text.split(None, 1)[1]
     if "\n" in text:
