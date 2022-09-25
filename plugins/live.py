@@ -1,10 +1,10 @@
 from pyrogram import filters
 
-from Bikash.config import BANNED_USERS
-from Bikash import YouTube, app
-from Bikash.utils.channelplay import get_channeplayCB
-from Bikash.utils.decorators.language import languageCB
-from Bikash.utils.stream.stream import stream
+from Nobita.config import BANNED_USERS
+from Nobita import YouTube, app
+from Nobita.utils.channelplay import get_channeplayCB
+from Nobita.utils.decorators.language import languageCB
+from Nobita.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
@@ -64,5 +64,5 @@ async def play_live_stream(client, CallbackQuery, _):
             )
             return await mystic.edit_text(err)
     else:
-        return await mystic.edit_text("👀 𝐍𝐨𝐭 𝐀 𝐋𝐢𝐯𝐞 𝐒𝐭𝐫𝐞𝐚𝐦 🌺.")
+        return await mystic.edit_text("👀 ɴᴏᴛ ᴀ ʟɪᴠᴇ sᴛʀᴇᴀᴍ 🌺.")
     await mystic.delete()
