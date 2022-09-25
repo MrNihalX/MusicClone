@@ -7,12 +7,12 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
 
-from Bikash import config
-from Bikash.config import adminlist, chatstats, clean, userstats
-from Bikash.strings import get_command
-from Bikash import app, userbot
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import (get_active_chats,
+from Nobita import config
+from Nobita.config import adminlist, chatstats, clean, userstats
+from Nobita.strings import get_command
+from Nobita import app, userbot
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        get_particular_top,
                                        get_served_chats,
@@ -20,8 +20,8 @@ from Bikash.utils.database import (get_active_chats,
                                        is_cleanmode_on, set_queries,
                                        update_particular_top,
                                        update_user_top)
-from Bikash.utils.decorators.language import language
-from Bikash.utils.formatters import alpha_to_int
+from Nobita.utils.decorators.language import language
+from Nobita.utils.formatters import alpha_to_int
 
 BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
