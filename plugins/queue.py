@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import asyncio
 import os
@@ -11,17 +11,17 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
-from Bikash import config
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import db
-from Bikash.utils import (Bikashhbin, get_channeplayCB,
+from Nobita import config
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import db
+from Nobita.utils import (Nobitaabin, get_channeplayCB,
                               seconds_to_min)
-from Bikash.utils.database import (get_cmode, is_active_chat,
+from Nobita.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.inline import queue_back_markup, queue_markup
+from Nobita.utils.decorators.language import language, languageCB
+from Nobita.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
@@ -101,8 +101,8 @@ async def ping_com(client, message: Message, _):
 
 📌**ᴛɪᴛʟᴇ:** {title}
 
-🍒**ᴛʏᴩᴇ:** {typo}
-💖**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
+🎧**ᴛʏᴩᴇ:** {typo}
+👑**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
@@ -190,7 +190,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     basic[videoid] = False
     buttons = queue_back_markup(_, what)
     med = InputMediaPhoto(
-        media="https://telegra.ph//file/6f7d35131f69951c74ee5.jpg",
+        media="https://telegra.ph/file/fe13a2ac8d1949d949b15.jpg",
         caption=_["queue_1"],
     )
     await CallbackQuery.edit_message_media(media=med)
@@ -277,7 +277,7 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
         if DUR == "Unknown"
         else "\n💥 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐡𝐞 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧 𝐓𝐨 𝐆𝐞𝐭 𝐐𝐮𝐞𝐮𝐞𝐝 🌷."
     )
-    cap = f"""**𝐁𝐢𝐤𝐚𝐬𝐡 {config.MUSIC_BOT_NAME} 𝐏𝐥𝐚𝐲𝐞𝐝**
+    cap = f"""**sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ {config.MUSIC_BOT_NAME} ᴘʟᴀʏᴇᴅ**
 
 🔰 **𝐓𝐢𝐭𝐥𝐞:** {title}
 
