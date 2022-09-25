@@ -1,18 +1,17 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
-
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 from pyrogram import filters
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from Bikash.config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
+from Nobita.config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database import (add_nonadmin_chat,
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
                                        commanddelete_off,
                                        commanddelete_on,
@@ -27,13 +26,13 @@ from Bikash.utils.database import (add_nonadmin_chat,
                                        save_audio_bitrate,
                                        save_video_bitrate,
                                        set_playmode, set_playtype)
-from Bikash.utils.decorators.admins import ActualAdminCB
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.inline.settings import (
+from Nobita.utils.decorators.admins import ActualAdminCB
+from Nobita.utils.decorators.language import language, languageCB
+from Nobita.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
-from Bikash.utils.inline.start import private_panel
+from Nobita.utils.inline.start import private_panel
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
