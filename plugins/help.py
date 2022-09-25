@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The Owner
 
 
 from typing import Union
@@ -6,16 +6,16 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Bikash import config
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command, get_string, helpers
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils import help_pannel
-from Bikash.utils.database import get_lang, is_commanddelete_on
-from Bikash.utils.decorators.language import (LanguageStart,
+from Nobita import config
+from Nobita.config import BANNED_USERS
+from Nobita.strings import get_command, get_string, helpers
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils import help_pannel
+from Nobita.utils.database import get_lang, is_commanddelete_on
+from Nobita.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from Bikash.utils.inline.help import (help_back_markup,
+from Nobita.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 
@@ -50,11 +50,11 @@ async def helper_private(
         if update.message.photo:
             await update.message.delete()
             await update.message.reply_text(
-                "**✅ 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐡𝐞 🌺 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫\n𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 ✨ ...\n\n🥀𝐈𝐟 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐅𝐚𝐜𝐢𝐧𝐠 » 𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦𝐬 𝐢𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐡𝐞𝐧 ❥︎ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨\n𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ❥︎ 𝐎𝐫 𝐀𝐬𝐤 𝐢𝐧 ❥︎ 𝐎𝐮𝐫 𝐒𝐮𝐩𝐩𝐨𝐫𝐭\n𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞 ...\n\n🌷𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐂𝐚𝐧 𝐁𝐞 𝐔𝐬𝐞𝐝 𝐖𝐢𝐭𝐡: /**", reply_markup=keyboard
+                "**✅ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ\nᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ✨ ...\n\n🥀ɪғ ʏᴏᴜ ᴀʀᴇ ғᴀᴄɪɴɢ » ᴀɴʏ ᴘʀᴏʙʟᴇᴍs ɪɴ ᴄᴏᴍᴍᴀɴᴅ ᴛʜᴇɴ ❥︎ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ\nᴍʏ ᴏᴡɴᴇʀ ❥︎ ᴏʀ ᴀsᴋ ɪɴ ❥︎ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ\nᴄʜᴀᴛ ɢʀᴏᴜᴘ 💞 ...\n\n🌷ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**", reply_markup=keyboard
             )
         else:
             await update.edit_message_text(
-                "**✅ 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐡𝐞 🌺 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫\n𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 ✨ ...\n\n🥀𝐈𝐟 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐅𝐚𝐜𝐢𝐧𝐠 » 𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦𝐬 𝐢𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐡𝐞𝐧 ❥︎ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨\n𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ❥︎ 𝐎𝐫 𝐀𝐬𝐤 𝐢𝐧 ❥︎ 𝐎𝐮𝐫 𝐒𝐮𝐩𝐩𝐨𝐫𝐭\n𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞 ...\n\n🌷𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐂𝐚𝐧 𝐁𝐞 𝐔𝐬𝐞𝐝 𝐖𝐢𝐭𝐡: /**", reply_markup=keyboard
+                "**✅ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ\nᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ✨ ...\n\n🥀ɪғ ʏᴏᴜ ᴀʀᴇ ғᴀᴄɪɴɢ » ᴀɴʏ ᴘʀᴏʙʟᴇᴍs ɪɴ ᴄᴏᴍᴍᴀɴᴅ ᴛʜᴇɴ ❥︎ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ\nᴍʏ ᴏᴡɴᴇʀ ❥︎ ᴏʀ ᴀsᴋ ɪɴ ❥︎ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ\nᴄʜᴀᴛ ɢʀᴏᴜᴘ 💞 ...\n\n🌷ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**", reply_markup=keyboard
             )
     else:
         chat_id = update.chat.id
@@ -66,7 +66,7 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_text("**✅ 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐡𝐞 🌺 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫\n𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 ✨ ...\n\n🥀𝐈𝐟 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐅𝐚𝐜𝐢𝐧𝐠 » 𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦𝐬 𝐢𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐡𝐞𝐧 ❥︎ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨\n𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ❥︎ 𝐎𝐫 𝐀𝐬𝐤 𝐢𝐧 ❥︎ 𝐎𝐮𝐫 𝐒𝐮𝐩𝐩𝐨𝐫𝐭\n𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞 ...\n\n🌷𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐂𝐚𝐧 𝐁𝐞 𝐔𝐬𝐞𝐝 𝐖𝐢𝐭𝐡: /**", reply_markup=keyboard)
+        await update.reply_text("**✅ 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐡𝐞 🌺 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 ғᴏʀ\nᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ✨ ...\n\n🥀𝐈𝐟 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐅𝐚𝐜𝐢𝐧𝐠 » 𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦𝐬 𝐢𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐡𝐞𝐧 ❥︎ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨\n𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ❥︎ 𝐎𝐫 𝐀𝐬𝐤 𝐢𝐧 ❥︎ 𝐎𝐮𝐫 𝐒𝐮𝐩𝐩𝐨𝐫𝐭\n𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞 ...\n\n🌷𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐂𝐚𝐧 𝐁𝐞 𝐔𝐬𝐞𝐝 𝐖𝐢𝐭𝐡: /**", reply_markup=keyboard)
 
 
 @app.on_message(
