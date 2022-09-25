@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @BikashHalder NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import asyncio
 
@@ -9,23 +9,23 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from youtubesearchpython.__future__ import VideosSearch
-from Bikash import app
-from Bikash import config
-from Bikash.config import BANNED_USERS
-from Bikash.config.config import OWNER_ID
-from Bikash.strings import get_command, get_string
-from Bikash import Telegram, YouTube, app
-from Bikash.misc import SUDOERS
+from Nobita import app
+from Nobita import config
+from Nobita.config import BANNED_USERS
+from Nobita.config.config import OWNER_ID
+from Nobita.strings import get_command, get_string
+from Nobita import Telegram, YouTube, app
+from Nobita.misc import SUDOERS
 from plugins.playlist import del_plist_msg
 from plugins.sudoers import sudoers_list
-from Bikash.utils.database import (add_served_chat,
+from Nobita.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from Bikash.utils.decorators.language import LanguageStart
-from Bikash.utils.inline import (help_pannel, private_panel,
+from Nobita.utils.decorators.language import LanguageStart
+from Nobita.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
@@ -51,7 +51,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 𝐅𝐞𝐭𝐜𝐡𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐒𝐭𝐚𝐭𝐬 📊.!"
+                "🔎 ғᴇᴛᴄʜɪɴɢ ʏᴏᴜʀ ᴘᴇʀsᴏɴᴀʟ sᴛᴀᴛs 📊.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -87,9 +87,9 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🛡️[𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐞𝐝𝐢𝐚 🍁](https://t.me/telegram) **🔊 𝐏𝐥𝐚𝐲𝐞𝐝 {count} ⏱️ 𝐓𝐢𝐦𝐞𝐬**\n\n"
+                        msg += f"🛡️[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ 🍁](https://t.me/telegram) **🔊 ᴘʟᴀʏᴇᴅ {count} ⏱️ ᴛɪᴍᴇs**\n\n"
                     else:
-                        msg += f"🛡️ [{title}](https://www.youtube.com/watch?v={vidid}) **🔊 𝐏𝐥𝐚𝐲𝐞𝐝 {count} ⏱️ 𝐓𝐢𝐦𝐞𝐬**\n\n"
+                        msg += f"🛡️ [{title}](https://www.youtube.com/watch?v={vidid}) **🔊 ᴘʟᴀʏᴇᴅ {count} ⏱️ ᴛɪᴍᴇs**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
                 return videoid, msg
 
