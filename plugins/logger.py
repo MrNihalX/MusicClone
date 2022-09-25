@@ -1,11 +1,11 @@
 from pyrogram import filters
 
-from Bikash import config
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import add_off, add_on
-from Bikash.utils.decorators.language import language
+from Nobita import config
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import add_off, add_on
+from Nobita.utils.decorators.language import language
 
 # Commands
 LOGGER_COMMAND = get_command("LOGGER_COMMAND")
