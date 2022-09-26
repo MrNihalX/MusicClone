@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
-from Bikash import config
+from Nobita import config
 
 def song_markup(_, vidid):
     buttons = [
@@ -23,7 +23,7 @@ def song_markup(_, vidid):
                 text="🌷 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🌷", url=f"{Bikash.config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/BikashGedgetsTech"
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/Nobita_Logo"
             ),
         ],
     ]
