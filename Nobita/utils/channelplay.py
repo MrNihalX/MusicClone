@@ -1,5 +1,5 @@
-from Bikash import app
-from Bikash.utils.database import get_cmode
+from Nobita import app
+from Nobita.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
