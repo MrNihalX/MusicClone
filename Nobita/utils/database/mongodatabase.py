@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Bikash.core.mongo import mongodb
+from Nobita.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
