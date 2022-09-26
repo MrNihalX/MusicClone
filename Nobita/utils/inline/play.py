@@ -1,7 +1,7 @@
 # Powered By @BilashHalder @AdityaHalder
 
 import random
-from Bikash.config import SUPPORT_GROUP
+from Nobita.config import SUPPORT_GROUP
 from pyrogram.types import InlineKeyboardButton
 
 
