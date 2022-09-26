@@ -2,8 +2,8 @@ from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Bikash import app
-from Bikash.config import SUPPORT_GROUP
+from Nobita import app
+from Nobita.config import SUPPORT_GROUP
 
 
 def help_pannel(_, START: Union[bool, int] = None):
@@ -26,57 +26,57 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="👑 𝐀𝐝𝐦𝐢𝐧 👑",
+                    text="👑 ᴀᴅᴍɪɴ 👑",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="🌷 𝐀𝐮𝐭𝐡 🌷",
+                    text="🌷 ᴀᴜᴛʜ 🌷",
                     callback_data="help_callback hb2",
                 ),
                 InlineKeyboardButton(
-                    text="🌷 𝐁𝐥𝐚𝐜𝐤 𝐋𝐢𝐬𝐭 🔒",
+                    text="🌷 ʙʟᴀᴄᴋ ʟɪsᴛ 🔒",
                     callback_data="help_callback hb3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🌷 𝐁𝐫𝐨𝐚𝐝𝐂𝐚𝐬𝐭 🌷",
+                    text="🌷 ʙʀᴏᴀᴅᴄᴀsᴛ 🌷",
                     callback_data="help_callback hb4",
                 ),
                 InlineKeyboardButton(
-                    text="🌷 𝐆𝐛𝐚𝐧 🔒",
+                    text="🌷 ɢʙᴀɴ 🔒",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
-                    text="🌷 𝐋𝐲𝐫𝐢𝐜𝐬 🎵",
+                    text="🌷 ʟʏʀɪᴄs 🎵",
                     callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔴 𝐏𝐢𝐧𝐠 🟠",
+                    text="🔴 ᴘɪɴɢ 🟠",
                     callback_data="help_callback hb7",
                 ),
                 InlineKeyboardButton(
-                    text="🌸 𝐏𝐥𝐚𝐲 🌸",
+                    text="🌸 ᴘʟᴀʏ 🌸",
                     callback_data="help_callback hb8",
                 ),
                 InlineKeyboardButton(
-                    text="🔊 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 🌸",
+                    text="🔊 ᴘʟᴀʏʟɪsᴛ 🌸",
                     callback_data="help_callback hb6",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🥀 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🎵",
+                    text="🥀 ᴠᴏɪᴄᴇ ᴄʜᴀᴛ 🎵",
                     callback_data="help_callback hb10",
                 ),
                 InlineKeyboardButton(
-                    text="🥀 𝐒𝐭𝐚𝐫𝐭 🥀",
+                    text="🥀 sᴛᴀʀᴛ 🥀",
                     callback_data="help_callback hb11",
                 ),
                 InlineKeyboardButton(
-                    text="🛡️ 𝐒𝐮𝐝𝐨 🇮🇳",
+                    text="🛡️ sᴜᴅᴏ 🇮🇳",
                     callback_data="help_callback hb9",
                 ),
             ],
@@ -98,7 +98,7 @@ def help_back_markup(_):
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
                 ),
                 InlineKeyboardButton(
-                    text="🌷 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🌷", url=f"{SUPPORT_GROUP}"
+                    text="🌷 sᴜᴘᴘᴏʀᴛ 🌷", url=f"{SUPPORT_GROUP}"
                 ),
             ]
         ]
