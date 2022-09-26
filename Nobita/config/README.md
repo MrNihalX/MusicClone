@@ -1,4 +1,4 @@
-# Bikash Aditya Player Bot Variables
+# NOBITA_XD Player Bot Variables
 
 
 ## Mandatory Vars
@@ -12,7 +12,7 @@
 5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
 6. `MUSIC_BOT_NAME` : A name for your Music bot.
 7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@Bgtstringbot](http://t.me/Bgtstringbot) in Telegram.
+8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@stringbot](http://t.me/Bgtstringbot) in Telegram.
 
 
 ## Non-Mandatory Vars
