@@ -3,8 +3,8 @@
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 
-from Bikash.config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
-from Bikash import app
+from Nobita.config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
+from Nobita import app
 
 
 def start_pannel(_):
@@ -18,11 +18,11 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/BikashGedgetsTech",
+                url=f"https://t.me/Nobita_Logo",
             ),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/bgt_chat",
+                url=f"https://t.me/AAPLI_YAARI",
             )
         ],
         [
@@ -45,10 +45,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/BikashGedgetsTech"),
+                url=f"https://t.me/Nobita_Logo"),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/bgt_chat")
+                url=f"https://t.me/AAPLI_YAARI")
         ],
         [
             InlineKeyboardButton(
