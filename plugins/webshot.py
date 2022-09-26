@@ -1,13 +1,12 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
-
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash import app
-from Bikash.utils.errors import capture_err
+from Nobita import app
+from Nobita.utils.errors import capture_err
 
 
 @app.on_message(filters.command("webss"))
