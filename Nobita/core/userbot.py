@@ -105,7 +105,7 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"🌷 𝐁𝐠𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 2 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.two.name}"
+                f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ  2 sᴛᴀʀᴛᴇᴅ  ᴀs {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
@@ -135,7 +135,7 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"🌷 𝐁𝐠𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 3 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.three.name}"
+                f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ 3 sᴛᴀʀᴛᴇᴅ ᴀs {self.three.name}"
             )
         if config.STRING4:
             await self.four.start()
@@ -165,7 +165,7 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"🌷 𝐁𝐠𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 4 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.four.name}"
+                f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ  4 sᴛᴀʀᴛᴇᴅ {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
@@ -195,5 +195,5 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"🌷 𝐁𝐠𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 4 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.five.name}"
+                f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ 5 sᴛᴀʀᴛᴇᴅ {self.five.name}"
             )
