@@ -1,9 +1,9 @@
 {
-  "name": "ᴀsᴜx ᴍᴜsɪᴄ",
-  "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+  "name": "sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ",
+  "logo": "https://telegra.ph/file/c109030256a4526907118.jpg",
   "description": "A Fast & Powerful VC Player bot to play songs in Telegram Video Chat written in Python with the help of Pyrogram & PyTg-Calls.",
   "keywords": ["music", "voicechat", "python", "telegram-bot", "pyrogram", "telegram", "AsuX"],
-  "repository": "https://github.com/KingAbishnoi/AsuXMusic",
+  "repository": "https://github.com/NOBITAXDD/SHIZUKA_NOBITA_MUSIC",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -54,12 +54,12 @@
     "SUPPORT_CHAT": {
       "description": "sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ ᴏғ ʏᴏᴜʀ ʙᴏᴛ, ᴍᴜsᴛ sᴛᴀʀᴛ ᴡɪᴛʜ https://t.me/",
       "required": false,
-      "value": "https://t.me/AbishnoiMF"
+      "value": "https://t.me/AAPLI_YARRI"
     },
     "SUPPORT_CHANNEL": {
       "description": "sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ ᴏғ ʏᴏᴜʀ ʙᴏᴛ, ʏᴏᴜʀ ʟɪɴᴋ ᴍᴜsᴛ sᴛᴀʀᴛ ᴡɪᴛʜ https://t.me/",
       "required": false,
-      "value": "https://t.me/Abishnoi_bots"
+      "value": "https://t.me/Nobita_Logo"
     }
   },
   "buildpacks": [
