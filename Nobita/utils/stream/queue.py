@@ -1,8 +1,8 @@
 from typing import Union
 
-from Bikash.config import autoclean, chatstats, userstats
-from Bikash.config.config import time_to_seconds
-from Bikash.misc import db
+from Nobita.config import autoclean, chatstats, userstats
+from Nobita.config.config import time_to_seconds
+from Nobita.misc import db
 
 
 async def put_queue(
