@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Nobita_xd IF You Fresh Any Problem To Contact The Owner
 
 import asyncio
 import shlex
@@ -7,7 +7,7 @@ from typing import Tuple
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
-from Bikash import config
+from Nobita import config
 
 from ..logging import LOGGER
 
@@ -74,4 +74,4 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -r Installer")
-        LOGGER(__name__).info(f"Fetching updates from BgtRobot...: {REPO_LINK} ")
+        LOGGER(__name__).info(f"Fetching updates from Shizuka_nobi bot...: {REPO_LINK} ")
