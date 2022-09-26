@@ -4,8 +4,8 @@ import time
 import heroku3
 from pyrogram import filters
 
-from Bikash import config
-from Bikash.core.mongo import pymongodb
+from Nobita import config
+from Nobita.core.mongo import pymongodb
 
 from .logging import LOGGER
 
