@@ -606,4 +606,4 @@ class Call(PyTgCalls):
                 autoend[chat_id] = {}
 
 
-Bikashh = Call()
+Nobita = Call()
