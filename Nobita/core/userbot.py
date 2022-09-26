@@ -1,10 +1,10 @@
-# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The  Owner
 
 import sys
 
 from pyrogram import Client
 
-from Bikash import config
+from Nobita import config
 
 from ..logging import LOGGER
 
@@ -46,12 +46,12 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"🌷 𝐆𝐞𝐭𝐭𝐢𝐧𝐠𝐬 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭𝐬 𝐈𝐧𝐟𝐨 🔍...")
+        LOGGER(__name__).info(f"🌷 ɢᴇᴛᴛɪɴɢs ᴀssɪsᴛᴀɴᴛ ɪɴғᴏ 🔍...")
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Bgt_Chat")
-                await self.one.join_chat("BikashGadgetsTech")
+                await self.one.join_chat("AAPLI_YARRI")
+                await self.one.join_chat("Nobita_Logo")
             except:
                 pass
             assistants.append(1)
@@ -66,22 +66,22 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"🌷 𝐁𝐠𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.one.name}"
+                f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs {self.one.name}"
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"🌷 𝐁𝐠𝐭 ✵ 𝐑𝐨𝐛𝐨𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 1 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🌺.\n\n✅ 𝐍𝐚𝐦𝐞 :**{self.one.name}\n👑 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.one.username}\n🌷 𝐈𝐝 : {self.one.id}"
+                    config.LOG_GROUP_ID, f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ  1 sᴛᴀʀᴛᴇᴅ 🌺.\n\n✅ ɴᴀᴍᴇ :**{self.one.name}\n👑 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}\n🌷 ɪᴅ : {self.one.id}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"💥 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 1 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐀𝐜𝐜𝐞𝐬𝐬 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🥀. 📌 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐀𝐝𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🌷 𝐚𝐧𝐝  𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 💥 "
+                    f"💥 ᴀssɪsᴛᴀɴᴛ 1 ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ʟᴏɢ ɢʀᴏᴜᴘ 🥀. 📌 ᴍᴀᴋᴇ sᴜʀᴜ ʏᴏᴜ ᴀᴅᴅ ᴀsɪsɪᴛᴀɴᴛ ᴛʜᴇ ʟᴏɢs ɢʀᴏᴜᴘ 🌷 ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀ ᴀᴅᴍɪɴ  💥 "
                 )
                 sys.exit()
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Bgt_Chat")
-                await self.two.join_chat("BikashGedgetsTech")
+                await self.two.join_chat("AAPLI_YARRI")
+                await self.two.join_chat("Nobita_Logo")
             except:
                 pass
             assistants.append(2)
@@ -97,11 +97,11 @@ class Userbot(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"🌷 𝐁𝐠𝐭 ✵ 𝐑𝐨𝐛𝐨𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 2 𝐒𝐭𝐚𝐫𝐭𝐞𝐝.\n\n✅ 𝐍𝐚𝐦𝐞 :{self.two.name}\n👑 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.two.username}\n🌷 𝐈𝐝 : {self.two.id}"
+                    config.LOG_GROUP_ID, f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ 2 sᴛᴀʀᴛᴇᴅ.\n\n✅ ɴᴀᴍᴇ :{self.two.name}\n👑 ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username}\n🌷 ɪᴅ : {self.two.id}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"💥 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 2 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐀𝐜𝐜𝐞𝐬𝐬 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🥀. 📌 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐀𝐝𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🌷 𝐚𝐧𝐝  𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 💥"
+                    f"💥 ᴀssɪsᴛᴀɴᴛ 2 ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ʟᴏɢ ɢʀᴏᴜᴘ 🥀. 📌 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐀𝐝𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🌷 𝐚𝐧𝐝  𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 💥"
                 )
                 sys.exit()
             LOGGER(__name__).info(
