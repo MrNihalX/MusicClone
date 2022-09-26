@@ -1,8 +1,8 @@
-from Bikash.core.bot import BikashXBot
-from Bikash.core.dir import dirr
-from Bikash.core.git import git
-from Bikash.core.userbot import Userbot
-from Bikash.misc import dbb, heroku, sudo
+from Nobita.core.bot import NobitaXBot
+from Nobita.core.dir import dirr
+from Nobita.core.git import git
+from Nobita.core.userbot import Userbot
+from Nobita.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = BikashXBot()
+app = NobitaXBot()
 
 # Assistant Client
 userbot = Userbot()
