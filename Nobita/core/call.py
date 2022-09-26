@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA_XD IF You Fresh Any Problem To Contact The  Owner
 
 import asyncio
 from datetime import datetime, timedelta
@@ -18,11 +18,11 @@ from pytgcalls.types import (JoinedGroupCallParticipant,
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.stream import StreamAudioEnded
 
-from Bikash import config
-from Bikash.strings import get_string
-from Bikash import LOGGER, YouTube, app
-from Bikash.misc import db
-from Bikash.utils.database import (add_active_chat,
+from Nobita import config
+from Nobita.strings import get_string
+from Nobita import LOGGER, YouTube, app
+from Nobita.misc import db
+from Nobita.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -31,11 +31,11 @@ from Bikash.utils.database import (add_active_chat,
                                        music_on, set_loop,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from Bikash.utils.exceptions import AssistantErr
-from Bikash.utils.inline.play import (stream_markup,
+from Nobita.utils.exceptions import AssistantErr
+from Nobita.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Bikash.utils.stream.autoclear import auto_clean
-from Bikash.utils.thumbnails import gen_thumb
+from Nobita.utils.stream.autoclear import auto_clean
+from Nobita.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
@@ -279,11 +279,11 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**⛔ 𝐍𝐨 𝐀𝐜𝐭𝐢𝐯𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🔇**\n\n🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐎𝐧 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🔊."
+                    "**⛔ ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ  🔇**\n\n🥀 ᴘʟᴇᴀsᴇ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ  🔊."
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
-                "💥 𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐈𝐬 🌷\n\n🌸 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐉𝐨𝐢𝐧 𝐓𝐡𝐞 𝐕𝐜 ✅\n\n🌷 𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐓𝐡𝐚𝐭 🌷\n\n💖 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐈𝐬 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐈𝐧 𝐓𝐡𝐞 𝐕𝐜, 𝐈𝐟 𝐘𝐨𝐮 𝐆𝐞𝐭 𝐓𝐡𝐢𝐬 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 🙂\n\n👉 𝐓𝐡𝐞𝐧 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ♻️."
+                "💥 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ ʙᴏᴛ ɪs 🌷\n\n🌸 ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴ ᴛʜᴇ ᴠᴄ  ✅\n\n🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ sᴇʀᴠᴇʀ ᴅᴇʟᴇᴛᴇᴅ ᴛʜᴀᴛ  🌷\n\n💖 ᴀssɪsᴛᴀɴᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴠᴄ 🙂\n\n👉   ♻️."
             )
         except TelegramServerError:
             raise AssistantErr(
