@@ -16,7 +16,7 @@ from Nobita.config import BANNED_USERS
 from Nobita.strings import get_command
 from Nobita import app
 from Nobita.misc import db
-from Nobita.utils import (Nobitaabin, get_channeplayCB,
+from Nobita.utils import (Nobitabin, get_channeplayCB,
                               seconds_to_min)
 from Nobita.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
