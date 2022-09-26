@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD
+# ©️ Copy Right By NOBITA_XD
+# Any Problem To Report @AAPLI_YAARI
+# Bot Owner NOBITA_XD
 
 import asyncio
 import platform
@@ -14,20 +14,20 @@ from pyrogram.errors import MessageIdInvalid
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
-from Bikash import config
-from Bikash.config import BANNED_USERS, MUSIC_BOT_NAME
-from Bikash.strings import get_command
-from Bikash import YouTube, app
-from Bikash.core.userbot import assistants
-from Bikash.misc import SUDOERS, pymongodb
+from Nobita import config
+from Nobita.config import BANNED_USERS, MUSIC_BOT_NAME
+from Nobita.strings import get_command
+from Nobita import YouTube, app
+from Nobita.core.userbot import assistants
+from Nobita.misc import SUDOERS, pymongodb
 from plugins import ALL_MODULES
-from Bikash.utils.database import (get_global_tops,
+from Nobita.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
                                        get_top_chats, get_topp_users)
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.inline.stats import (back_stats_buttons,
+from Nobita.utils.decorators.language import language, languageCB
+from Nobita.utils.inline.stats import (back_stats_buttons,
                                            back_stats_markup,
                                            get_stats_markup,
                                            overallback_stats_markup,
@@ -111,7 +111,7 @@ async def gstats_global(client, message: Message, _):
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"📊 𝐓𝐨𝐩 𝐌𝐨𝐬𝐭 𝐏𝐥𝐚𝐲𝐞𝐝 𝐓𝐫𝐚𝐜𝐤 𝐎𝐧 {MUSIC_BOT_NAME}\n\n**𝐓𝐢𝐭𝐥𝐞:** {title}\n\n🔊 𝐏𝐥𝐚𝐲𝐞𝐝** {co} **⏱️ 𝐓𝐢𝐦𝐞𝐬."
+    final = f"📊 ᴛᴏᴘ ᴍᴏsᴛ ᴘʟᴀʏᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ {MUSIC_BOT_NAME}\n\n**ᴛɪᴛʟᴇ:** {title}\n\n🔊 ᴘʟᴀʏᴇᴅ** {co} **⏱️ ᴛɪᴍᴇs."
     upl = get_stats_markup(
         _, True if message.from_user.id in SUDOERS else False
     )
@@ -185,7 +185,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🍒 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/AlishaSupport) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f"🍒 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/AAPLI_YAARI) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 else:
                     msg += f"📌 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
