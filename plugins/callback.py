@@ -15,13 +15,13 @@ from Nobita.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
                                        is_nonadmin_chat, music_off,
                                        music_on)
-from Bikash.utils.decorators.language import languageCB
-from Bikash.utils.formatters import seconds_to_min
-from Bikash.utils.inline.play import (panel_markup_1,
+from Nobita.utils.decorators.language import languageCB
+from Nobita.utils.formatters import seconds_to_min
+from Nobita.utils.inline.play import (panel_markup_1,
                                           stream_markup,
                                           telegram_markup)
-from Bikash.utils.stream.autoclear import auto_clean
-from Bikash.utils.thumbnails import gen_thumb
+from Nobita.utils.stream.autoclear import auto_clean
+from Nobita.utils.thumbnails import gen_thumb
 
 wrong = {}
 
