@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Bgt_Chat")
-                await self.three.join_chat("BikashGadgetsTech")
+                await self.three.join_chat("AAPLI_YARRI")
+                await self.three.join_chat("Nobita_Logo")
             except:
                 pass
             assistants.append(3)
@@ -127,7 +127,7 @@ class Userbot(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"🌷 𝐁𝐠𝐭 ✵ 𝐑𝐨𝐛𝐨𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 3 𝐒𝐭𝐚𝐫𝐭𝐞𝐝.\n\n✅ 𝐍𝐚𝐦𝐞 :{self.three.name}\n👑 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.three.username}\n🌷 𝐈𝐝 : {self.three.id}"
+                    config.LOG_GROUP_ID, f"🌷sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ 3 sᴛᴀʀᴛᴇᴅ .\n\n✅ ɴᴀᴍᴇ :{self.three.name}\n👑 ᴜsᴇʀɴᴀᴍᴇ : @{self.three.username}\n🌷 ɪᴅ : {self.three.id}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -140,8 +140,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Bgt_Chat")
-                await self.four.join_chat("BikashGadgetsTech")
+                await self.four.join_chat("AAPLI_YARRI")
+                await self.four.join_chat("Nobita_Logo")
             except:
                 pass
             assistants.append(4)
@@ -170,8 +170,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("Bgt_Chat")
-                await self.five.join_chat("BikashGadgetsTech")
+                await self.five.join_chat("AAPLI_YARRI")
+                await self.five.join_chat("Nobita_Logo")
             except:
                 pass
             assistants.append(5)
