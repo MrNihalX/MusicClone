@@ -17,8 +17,8 @@ from Nobita import app
 from Nobita.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from Bikash.utils.decorators import AdminActual
-from Bikash.utils.formatters import int_to_alpha
+from Nobita.utils.decorators import AdminActual
+from Nobita.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
