@@ -1,4 +1,4 @@
-# Powered By @BikashHalder @AdityaHalder
+# Powered By NOBITA_XD
 
 import os
 import re
@@ -10,7 +10,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
 
-from Bikash.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
+from Nobita.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
 themes = [
@@ -91,7 +91,7 @@ async def gen_thumb(videoid):
         draw.text((190, 550), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((190, 590), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((190, 670), f"Powered By: Bikash & Aditya Halder (@BikashHalder @AdityaHalder)", (255, 255, 255), font=font)
+        draw.text((190, 670), f"Powered By: ɴᴏʙɪᴛᴀ_xᴅ (@NOBI_XXD)", (255, 255, 255), font=font)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
