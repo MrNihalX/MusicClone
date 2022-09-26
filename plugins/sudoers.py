@@ -1,17 +1,16 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
-
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS, MONGO_DB_URI, OWNER_ID, MUSIC_BOT_NAME
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import add_sudo, remove_sudo
-from Bikash.utils.decorators.language import language
+from Nobita.config import BANNED_USERS, MONGO_DB_URI, OWNER_ID, MUSIC_BOT_NAME
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import add_sudo, remove_sudo
+from Nobita.utils.decorators.language import language
 
 # Command
 ADDSUDO_COMMAND = get_command("ADDSUDO_COMMAND")
@@ -26,7 +25,7 @@ SUDOUSERS_COMMAND = get_command("SUDOUSERS_COMMAND")
 async def useradd(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            f"**🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐃𝐮𝐞 𝐓𝐨 {MUSIC_BOT_NAME}'𝐬 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐄𝐫𝐫𝐨𝐫, 🌷 𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐌𝐚𝐧𝐚𝐠𝐞 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 𝐎𝐧 {MUSIC_BOT_NAME} 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞 📡.\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫  𝐎𝐰𝐧 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧 𝐂𝐨𝐧𝐟𝐢𝐠 𝐓𝐡𝐞𝐧 𝐘𝐨𝐮 𝐔𝐬𝐞  𝐓𝐡𝐢𝐬 💖.**"
+            f"**🌷 ᴍᴜsɪᴄ ʙᴏᴛ ᴅᴜᴇ ᴛᴏ {MUSIC_BOT_NAME}'s ᴘʀɪᴠᴀᴄʏ ᴇʀʀᴏʀ, 🌷 ʏᴏᴜ ᴄᴀɴ'ᴛ ᴍᴀɴᴇɢᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏɴ {MUSIC_BOT_NAME} ᴅᴀᴛᴀʙᴀsᴇ 📡.\n\n ᴘʟᴇᴀsᴇ ᴀᴅᴅ ʏᴏᴜʀ ᴏᴡɴ ᴅᴀᴛᴀʙᴀsᴇ ɪɴ ᴄᴏɴғɪɢ ᴛʜᴇɴ ʏᴏᴜ ᴜsᴇ ᴛʜɪs 💖.**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -44,7 +43,7 @@ async def useradd(client, message: Message, _):
             SUDOERS.add(user.id)
             await message.reply_text(_["sudo_2"].format(user.mention))
         else:
-            await message.reply_text("❌ 𝐅𝐚𝐢𝐥𝐞𝐝 ❌.")
+            await message.reply_text("❌ ғᴀɪʟᴇᴅ  ❌.")
         return
     if message.reply_to_message.from_user.id in SUDOERS:
         return await message.reply_text(
@@ -61,7 +60,7 @@ async def useradd(client, message: Message, _):
             )
         )
     else:
-        await message.reply_text("❌ 𝐅𝐚𝐢𝐥𝐞𝐝 ❌.")
+        await message.reply_text("❌ ғᴀɪʟᴇᴅ ❌.")
     return
 
 
@@ -72,7 +71,7 @@ async def useradd(client, message: Message, _):
 async def userdel(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            f"**🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐃𝐮𝐞 𝐓𝐨 {MUSIC_BOT_NAME}'𝐬 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐄𝐫𝐫𝐨𝐫, 🌷 𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐌𝐚𝐧𝐚𝐠𝐞 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 𝐎𝐧 {MUSIC_BOT_NAME} 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞 📡.\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫  𝐎𝐰𝐧 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧 𝐂𝐨𝐧𝐟𝐢𝐠 𝐓𝐡𝐞𝐧 𝐘𝐨𝐮 𝐔𝐬𝐞  𝐓𝐡𝐢𝐬 💖.**"
+            f"**🌷 ᴍᴜsɪᴄ ʙᴏᴛ ᴅᴜᴇ {MUSIC_BOT_NAME}'s ᴘʀɪᴠᴀᴄʏ ᴇʀʀᴏʀ, 🌷 ʏᴏᴜ ᴄᴀɴ'ᴛ ᴍᴀɴᴇɢᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏɴ  {MUSIC_BOT_NAME} ᴅᴀᴛᴀʙᴀsᴇ 📡.\n\n ᴘʟᴇᴀsᴇ ᴀᴅᴅ ʏᴏᴜʀ ᴏᴡɴ ᴅᴀᴛᴀʙᴀsᴇ ɪɴ ᴄᴏɴғɪɢ ᴛʜᴇɴ ʏᴏᴜ ᴜsᴇ ᴛʜɪs 💖.**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -88,7 +87,7 @@ async def userdel(client, message: Message, _):
             SUDOERS.remove(user.id)
             await message.reply_text(_["sudo_4"])
             return
-        await message.reply_text(f"🌷 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐖𝐫𝐨𝐧𝐠 🙂.")
+        await message.reply_text(f"🌷 ʏᴏᴜ ᴀʀᴇ ᴡʀᴏɴɢ 🙂.")
         return
     user_id = message.reply_to_message.from_user.id
     if user_id not in SUDOERS:
@@ -98,7 +97,7 @@ async def userdel(client, message: Message, _):
         SUDOERS.remove(user_id)
         await message.reply_text(_["sudo_4"])
         return
-    await message.reply_text(f"📌 𝐒𝐨𝐦𝐭𝐡𝐢𝐧𝐠 𝐘𝐨𝐮 𝐖𝐫𝐨𝐧𝐠 ❌.")
+    await message.reply_text(f"📌  sᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ ᴡʀᴏɴɢ  ❌.")
 
 
 @app.on_message(filters.command(SUDOUSERS_COMMAND) & ~BANNED_USERS)
