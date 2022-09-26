@@ -23,7 +23,7 @@ from Nobita.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
 from Nobita.utils.decorators.language import language
-from Nobita.utils.pastebin import Bikashhbin
+from Nobita.utils.pastebin import Nobitabin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
