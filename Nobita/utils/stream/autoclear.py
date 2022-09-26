@@ -1,6 +1,6 @@
 import os
 
-from Bikash.config import autoclean
+from Nobita.config import autoclean
 
 
 async def auto_clean(popped):
