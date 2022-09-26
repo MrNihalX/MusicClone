@@ -3,8 +3,8 @@ import traceback
 from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
-from Bikash import app
-from Bikash.logging import LOGGER
+from Nobita import app
+from Nobita.logging import LOGGER
 
 
 def split_limits(text):
