@@ -1,6 +1,6 @@
-from Bikash.config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
-from Bikash import app
-from Bikash.utils.database import is_on_off
+from Nobita.config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
+from Nobita import app
+from Nobita.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
@@ -10,7 +10,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Chat"
         logger_text = f"""
-**🔰 𝐁𝐢𝐥𝐚𝐬𝐡 𝐏𝐥𝐚𝐲𝐞𝐫  𝐋𝐨𝐠𝐬 🥀**
+**🔰 𝐒𝐡𝐢𝐳𝐮𝐤𝐚_𝐍𝐨𝐛𝐢 𝐏𝐥𝐚𝐲𝐞𝐫 𝐋𝐨𝐠𝐬 🥀**
 
 **🔰 𝐂𝐡𝐚𝐭 𝐍𝐚𝐦𝐞 :** {message.chat.title} [`{message.chat.id}`]
 
