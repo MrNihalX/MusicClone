@@ -283,11 +283,11 @@ class Call(PyTgCalls):
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
-                "💥 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ ʙᴏᴛ ɪs 🌷\n\n🌸 ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴ ᴛʜᴇ ᴠᴄ  ✅\n\n🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ sᴇʀᴠᴇʀ ᴅᴇʟᴇᴛᴇᴅ ᴛʜᴀᴛ  🌷\n\n💖 ᴀssɪsᴛᴀɴᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴠᴄ 🙂\n\n👉   ♻️."
+                "💥 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ ʙᴏᴛ ɪs 🌷\n\n🌸 ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴ ᴛʜᴇ ᴠᴄ  ✅\n\n🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ sᴇʀᴠᴇʀ ᴅᴇʟᴇᴛᴇᴅ ᴛʜᴀᴛ  🌷\n\n💖 ᴀssɪsᴛᴀɴᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴠᴄ 🙂\n\n👉  ᴛʜᴇɴ ʀᴇsᴛᴀʀᴛ ᴠᴄ ᴀɢᴀɪɴ ♻️."
             )
         except TelegramServerError:
             raise AssistantErr(
-                "🌷 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐞𝐫𝐯𝐞𝐫 𝐄𝐫𝐫𝐨𝐫 🙂\n\n📌 𝐓𝐮𝐫𝐧 𝐎𝐟𝐟 𝐀𝐜𝐭𝐢𝐯𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 ❌\n\n📌 𝐓𝐡𝐞𝐧 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 ♻️."
+                "🌷 ᴛᴇʟᴇɢʀᴀᴍ sᴇʀᴠᴇʀ ᴘʀᴏʙʟᴇᴍ 🙂\n\n📌 ᴛᴜʀɴ ᴏғғ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ  ❌\n\n📌 ᴛʜᴇɴ ʀᴇsᴛᴀʀᴛ ᴠᴄ ᴀɢᴀɪɴ ♻️."
             )
         await add_active_chat(chat_id)
         await music_on(chat_id)
