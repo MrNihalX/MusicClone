@@ -1,16 +1,16 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import set_video_limit
-from Bikash.utils.decorators.language import language
+from Nobita.strings import get_command
+from Nobita import app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import set_video_limit
+from Nobita.utils.decorators.language import language
 
 VIDEOLIMIT_COMMAND = get_command("VIDEOLIMIT_COMMAND")
 
