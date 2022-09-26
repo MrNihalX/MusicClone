@@ -1,16 +1,16 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Bikash.config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
-from Bikash.strings import get_string
-from Bikash import YouTube, app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import (get_cmode, get_lang,
+from Nobita.config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
+from Nobita.strings import get_string
+from Nobita import YouTube, app
+from Nobita.misc import SUDOERS
+from Nobita.utils.database import (get_cmode, get_lang,
                                        get_playmode, get_playtype,
                                        is_active_chat,
                                        is_commanddelete_on,
                                        is_served_private_chat)
-from Bikash.utils.database.memorydatabase import is_maintenance
-from Bikash.utils.inline.playlist import botplaylist_markup
+from Nobita.utils.database.memorydatabase import is_maintenance
+from Nobita.utils.inline.playlist import botplaylist_markup
 
 
 def PlayWrapper(command):
@@ -18,12 +18,12 @@ def PlayWrapper(command):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "🥀 𝐁𝐨𝐭 𝐈𝐬 𝐔𝐧𝐝𝐞𝐫 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐀𝐧𝐜𝐞 , 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰  𝐌𝐢𝐧𝐮𝐭𝐞𝐬, 𝐘𝐨𝐮 𝐒𝐞𝐞 𝐓𝐡𝐞 𝐑𝐞𝐚𝐬𝐨𝐧 𝐓𝐡𝐞𝐧 𝐉𝐨𝐢𝐧 [𝐇𝐞𝐫𝐞](https://t.me/Bgt_Chat) 🥀"
+                    "🥀 𝐁𝐨𝐭 𝐈𝐬 𝐔𝐧𝐝𝐞𝐫 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐀𝐧𝐜𝐞 , 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰  𝐌𝐢𝐧𝐮𝐭𝐞𝐬, 𝐘𝐨𝐮 𝐒𝐞𝐞 𝐓𝐡𝐞 𝐑𝐞𝐚𝐬𝐨𝐧 𝐓𝐡𝐞𝐧 𝐉𝐨𝐢𝐧 [𝐇𝐞𝐫𝐞](https://t.me/AAPLI_YARRI ) 🥀"
                 )
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "**🔒 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐌𝐮𝐬𝐢𝐜  𝐁𝐨𝐭 🔊**\n\n✅ 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 𝐂𝐡𝐚𝐭𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 [𝐎𝐰𝐧𝐞𝐫](https://t.me/BikashHalder) . 🌷 𝐀𝐬𝐤 𝐌𝐲 👑 𝐎𝐰𝐧𝐞𝐫 𝐓𝐨 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮𝐫 𝐂𝐇𝐚𝐭 𝐅𝐫𝐢𝐬𝐭 🌸"
+                    "**🔒 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐌𝐮𝐬𝐢𝐜  𝐁𝐨𝐭 🔊**\n\n✅ 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 𝐂𝐡𝐚𝐭𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 [𝐎𝐰𝐧𝐞𝐫](https://t.me/NOBI_XXD) . 🌷 𝐀𝐬𝐤 𝐌𝐲 👑 𝐎𝐰𝐧𝐞𝐫 𝐓𝐨 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮𝐫 𝐂𝐇𝐚𝐭 𝐅𝐫𝐢𝐬𝐭 🌸"
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
