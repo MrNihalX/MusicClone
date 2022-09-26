@@ -1,6 +1,6 @@
-from Bikash import config
-from Bikash.config import PRIVATE_BOT_MODE
-from Bikash.core.mongo import mongodb
+from Nobita import config
+from Nobita.config import PRIVATE_BOT_MODE
+from Nobita.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
