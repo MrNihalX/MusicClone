@@ -222,7 +222,7 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
                 ],
                 [
                     InlineKeyboardButton(
-                        text="⚙️ ❰ ᴄᴏᴍᴍᴀɴᴅs❱ ⚙️", callback_data="settings_back_helper")
+                        text="⚙️ ❰ ᴄᴏᴍᴍᴀɴᴅs ❱ ⚙️", callback_data="settings_back_helper")
                 ]
            ]
         ),
@@ -249,15 +249,15 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕", url=f"https://t.me/{app.username}?startgroup=true"),
+                        "🎧 ❰ ᴜᴛʜᴀᴀʟᴇ ʀᴇ ʙᴀʙᴀ ❱ 🎧", url=f"https://t.me/{app.username}?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "📺 ❰ 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 ❱ 📺", url=f"https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"),
+                        "🌺 ❰ ɴᴏʙɪᴛᴀ_ʟᴏɢᴏ ❱ 🌺", url=f"https://t.me/Nobita_Logo"),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="⚙ ❰ 𝐎𝐩𝐞𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐌𝐞𝐧𝐮 ❱ ⚙", callback_data="settings_back_helper")
+                        text="⚙ ❰ ᴄᴏᴍᴍᴀɴᴅs ❱ ⚙", callback_data="settings_back_helper")
                 ]
            ]
         ),
@@ -284,15 +284,15 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕", url=f"https://t.me/{app.username}?startgroup=true"),
+                        "🎧 ❰ ᴜᴛʜᴀᴀʟᴇ ʀᴇ ʙᴀʙᴀ ❱ 🎧", url=f"https://t.me/{app.username}?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "📺 ❰ 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 ❱ 📺", url=f"https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"),
+                        "🌺 ❰ ɴᴏʙɪᴛᴀ_ʟᴏɢᴏ ❱ 🌺", url=f"https://t.me/Nobita_Logo"),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="⚙ ❰ 𝐎𝐩𝐞𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐌𝐞𝐧𝐮 ❱ ⚙", callback_data="settings_back_helper")
+                        text="⚙ ❰ ᴄᴏᴍᴍᴀɴᴅs ❱ ⚙", callback_data="settings_back_helper")
                 ]
            ]
         ),
