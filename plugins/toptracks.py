@@ -1,22 +1,22 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By NOBITA_XD 
+# ©️ Copy Right By NOBITA_XD 
+# Any Problem To Report NOBITA_XD 
+# Bot Owner NOBITA_XD 
 
 import asyncio
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
-from Bikash.config import BANNED_USERS
-from Bikash import app
-from Bikash.utils.database import (get_global_tops,
+from Nobita.config import BANNED_USERS
+from Nobita import app
+from Nobita.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
-from Bikash.utils.decorators.language import languageCB
-from Bikash.utils.inline.playlist import (botplaylist_markup,
+from Nobita.utils.decorators.language import languageCB
+from Nobita.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from Bikash.utils.stream.stream import stream
+from Nobita.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 
