@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Nobita.config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
-from Nobita.strings import get_string
+from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
+from strings import get_string
 from Nobita import YouTube, app
 from Nobita.misc import SUDOERS
 from Nobita.utils.database import (get_cmode, get_lang,
