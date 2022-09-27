@@ -10,8 +10,8 @@ import sys
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
-from Nobita import config
-from Nobita.config import BANNED_USERS
+import config
+from config import BANNED_USERS
 from Nobita import LOGGER, app, userbot
 from Nobita.core.call import Nobita
 from Nobita.plugins import ALL_MODULES
