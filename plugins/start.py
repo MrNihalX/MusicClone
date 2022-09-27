@@ -111,7 +111,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} 𝐇𝐚𝐬 ʜᴀs ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ᴄʜᴇᴄᴋ  <code>SUDOLIST</code>\n\n**🆔 ᴜsᴇʀ ɪᴅ:** {sender_id}\n**👑 ᴜsᴇʀ ɴᴀᴍᴇ:** {sender_name}",
+                    f"{message.from_user.mention} ʜᴀs ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ʙᴏᴛ ᴄʜᴇᴄᴋ  <code>SUDOLIST</code>\n\n**🆔 ᴜsᴇʀ ɪᴅ:** {sender_id}\n**👑 ᴜsᴇʀ ɴᴀᴍᴇ:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -177,7 +177,7 @@ __**🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋᴇʀ ɪɴғ�
                 parse_mode="markdown",
                 reply_markup=key,
             )
-            if await is_on_off(Bikash.config.LOG):
+            if await is_on_off(Nobita.config.LOG):
                 sender_id = message.from_user.id
                 sender_name = message.from_user.first_name
                 return await app.send_message(
@@ -317,7 +317,7 @@ async def testbot(client, message: Message, _):
     out = start_pannel(_)
     return await message.reply_text(
         "**✅ ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴍᴇ ɪɴ\nᴄʜᴀᴛ »  {0}\n\n🥀 ɪғ ʜᴀᴠᴇ 📀 ᴀɴʏ ϙᴜᴇʀɪᴇs\nᴛʜᴇɴ ᴇxᴘʟᴀɪɴ 💬 ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ 👑.\n\n💐 ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ‖ sᴜᴘᴘᴏʀᴛ 🌷\n🌷 ғᴏʀ ɢᴇᴛᴛɪɴɢ ɴᴇᴡ ᴜᴘᴅᴀᴛᴇs 💞...**".format(
-            message.chat.title, Bikash.config.MUSIC_BOT_NAME
+            message.chat.title, Nobita.config.MUSIC_BOT_NAME
         ),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -363,7 +363,7 @@ async def welcome(client, message: Message):
                     ),
                     reply_markup=InlineKeyboardMarkup(out),
                 )
-            if member.id in Bikash.config.OWNER_ID:
+            if member.id in Nobita.config.OWNER_ID:
                 return await message.reply_text(
                     _["start_4"].format(
                         config.MUSIC_BOT_NAME, member.mention
