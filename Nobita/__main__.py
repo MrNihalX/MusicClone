@@ -28,7 +28,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ").error(
+        LOGGER("Nobita").error(
             "No Assistant Clients Vars Defined!.. Exiting Process."
         )
         return
@@ -36,7 +36,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ").warning(
+        LOGGER("Nobita").warning(
             "No Spotify Vars defined. Your bot won't be able to play spotify queries."
         )
     try:
@@ -61,17 +61,17 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ").error(
+        LOGGER("Nobita").error(
             "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
         )
         sys.exit()
     except:
         pass
     await Nobita.decorators()
-    LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ").info("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ Bot Started Successfully")
+    LOGGER("Nobita").info("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ").info("Stopping sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ Bot! GoodBye")
+    LOGGER("Nobita").info("Stopping sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ Bot! GoodBye")
