@@ -1,4 +1,4 @@
-from Nobita.config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
+from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
 from Nobita import app
 from Nobita.utils.database import is_on_off
 
