@@ -73,7 +73,7 @@ autoclean = []
 LOG = 2
 YTDOWNLOADER = 1
 BANNED_USERS = filters.user()
-LOG_FILE_NAME = "bikashlogs.txt"
+LOG_FILE_NAME = "Nobitalogs.txt"
 ############################
 
 
