@@ -7,7 +7,7 @@ from typing import Union
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Voice)
 
-from Nobita import config
+import config
 from Nobita.config import MUSIC_BOT_NAME, lyrical
 from Nobita import app
 
