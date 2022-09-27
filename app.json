@@ -1,12 +1,12 @@
 {
-    "name": "Alexa Music Bot",
-    "description": "Alexa Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/798b7275e58d09ac6b095.jpg",
+    "name": "Shizuka_nobi music Bot",
+    "description": "shizuka_nobi Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/c109030256a4526907118.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "alexa",
+    "Nobita",
     "telegram-music-bot",
     "telegram-bot",
     "pyrogram"
@@ -40,12 +40,12 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "乛𝘼𝙇𝙀𝙓𝘼🕊⃝🦋⁪⁬",
+        "value": "sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ⁪⁬",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5303133436",
+        "value": "5275980328",
         "required": true
       },
       "STRING_SESSION": {
@@ -80,7 +80,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TheTeamAlexa/AlexaMusic",
+        "value": "https://github.com/NOBITAXDD/SHIZUKA_NOBITA_MUSIC",
         "required": true
       },
       "UPSTREAM_BRANCH": {
