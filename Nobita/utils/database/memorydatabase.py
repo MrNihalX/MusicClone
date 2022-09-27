@@ -1,5 +1,5 @@
-from Nobita import config
-from Nobita.config import PRIVATE_BOT_MODE
+import config
+from config import PRIVATE_BOT_MODE
 from Nobita.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
