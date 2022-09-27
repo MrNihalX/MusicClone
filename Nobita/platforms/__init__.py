@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By NOBITA 
 
 from .Apple import AppleAPI
 from .Carbon import CarbonAPI
