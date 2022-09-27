@@ -7,9 +7,9 @@ from typing import Union
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Voice)
 
-from Bikash import config
-from Bikash.config import MUSIC_BOT_NAME, lyrical
-from Bikash import app
+from Nobita import config
+from Nobita.config import MUSIC_BOT_NAME, lyrical
+from Nobita import app
 
 from ..utils.formatters import (convert_bytes, get_readable_time,
                                 seconds_to_min)
@@ -138,7 +138,7 @@ class TeleAPI:
                     completed_size = convert_bytes(current)
                     speed = convert_bytes(speed)
                     text = f"""
-🥀 𝐁𝐢𝐤𝐚𝐬𝐡 {MUSIC_BOT_NAME} 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐞𝐝𝐢𝐚 𝐃𝐨𝐰𝐧𝐋𝐨𝐝𝐞𝐫 🌷
+🥀 𝐒𝐡𝐢𝐳𝐮𝐤𝐚_𝐍𝐨𝐛𝐢 {MUSIC_BOT_NAME} 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐞𝐝𝐢𝐚 𝐃𝐨𝐰𝐧𝐋𝐨𝐝𝐞𝐫 🌷
 
 🥀 𝐄𝐓𝐀 ➪ {eta}
 
