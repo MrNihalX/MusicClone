@@ -1,4 +1,4 @@
-# Powered By @BikashHalder @AdityaHalder
+# Powered By NOBITA 
 
 import os
 from typing import List
