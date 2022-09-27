@@ -1,7 +1,7 @@
 from typing import Union
 
-from Nobita.config import autoclean, chatstats, userstats
-from Nobita.config.config import time_to_seconds
+from config import autoclean, chatstats, userstats
+from config.config import time_to_seconds
 from Nobita.misc import db
 
 
