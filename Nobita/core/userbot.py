@@ -4,7 +4,7 @@ import sys
 
 from pyrogram import Client
 
-from Nobita import config
+import config
 
 from ..logging import LOGGER
 
