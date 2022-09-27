@@ -8,7 +8,7 @@ import yt_dlp
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from Nobita import config
+import config
 from Nobita.utils.database import is_on_off
 from Nobita.utils.formatters import time_to_seconds
 
