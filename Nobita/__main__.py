@@ -74,4 +74,4 @@ async def init():
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("sHIZUKA_NOBIMUSIC").info("Stopping sHIZUKA_NOBI Music Bot! GoodBye")
+    LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ").info("Stopping sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ᴍᴜsɪᴄ Bot! GoodBye")
