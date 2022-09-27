@@ -6,7 +6,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from youtubesearchpython.__future__ import VideosSearch
 
-from Nobita import config
+import config
 
 
 class SpotifyAPI:
