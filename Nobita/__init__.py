@@ -1,4 +1,4 @@
-from Nobita.core.bot import NobitaXBot
+from Nobita.core.bot import NobitaBot
 from Nobita.core.dir import dirr
 from Nobita.core.git import git
 from Nobita.core.userbot import Userbot
@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = NobitaXBot()
+app = NobitaBot()
 
 # Assistant Client
 userbot = Userbot()
