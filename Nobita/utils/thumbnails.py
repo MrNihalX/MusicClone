@@ -10,7 +10,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
 
-from Nobita.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
+from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
 themes = [
