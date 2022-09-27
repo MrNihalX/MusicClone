@@ -7,7 +7,7 @@
 
 from typing import Dict, List, Union
 
-from AlexaMusic.core.mongo import mongodb
+from Nobita.core.mongo import mongodb
 
 sudoersdb = db.sudoers
 
