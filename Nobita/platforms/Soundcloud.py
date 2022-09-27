@@ -5,7 +5,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from Bikash.utils.formatters import seconds_to_min
+from Nobita.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
