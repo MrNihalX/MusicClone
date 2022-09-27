@@ -4,7 +4,8 @@ from typing import Union
 
 from pyrogram.types import InlineKeyboardMarkup
  
-from Nobita import Carbon, YouTube, app, config
+import config
+from Nobita import Carbon, YouTube, app
 from Nobita.core.call import Nobita
 from Nobita.misc import db
 from Nobita.utils.database import (add_active_chat,
