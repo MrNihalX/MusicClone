@@ -18,8 +18,8 @@ from pytgcalls.types import (JoinedGroupCallParticipant,
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.stream import StreamAudioEnded
 
-from Nobita import config
-from Nobita.strings import get_string
+import config
+from strings import get_string
 from Nobita import LOGGER, YouTube, app
 from Nobita.misc import db
 from Nobita.utils.database import (add_active_chat,
