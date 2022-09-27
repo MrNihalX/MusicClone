@@ -14,7 +14,7 @@ from Nobita import config
 from Nobita.config import BANNED_USERS
 from Nobita import LOGGER, app, userbot
 from Nobita.core.call import Nobita
-from plugins import ALL_MODULES
+from Nobita.plugins import ALL_MODULES
 from Nobita.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
@@ -50,8 +50,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("plugins." + all_module)
-    LOGGER("plugins").info(
+        importlib.import_module("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ.plugins" + all_module)
+    LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ.plugins").info(
         "Successfully Imported Modules "
     )
     await userbot.start()
