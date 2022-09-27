@@ -50,8 +50,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ.plugins" + all_module)
-    LOGGER("sʜɪᴢᴜᴋᴀ_ɴᴏʙɪᴍᴜsɪᴄ.plugins").info(
+        importlib.import_module("Nobita.plugins" + all_module)
+    LOGGER("Nobita.plugins").info(
         "Successfully Imported Modules "
     )
     await userbot.start()
