@@ -1,9 +1,9 @@
-from Nobita.core.bot import Nobita
+from Nobita.core.bot import Nobitabot
 from Nobita.core.dir import dirr
 from Nobita.core.git import git
 from Nobita.core.userbot import Userbot
 from Nobita.misc import dbb, heroku, sudo
-from aiohttp import ClientSession
+
 
 from .logging import LOGGER
 
@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = Nobita()
+app = Nobitabot()
 
 # Assistant Client
 userbot = Userbot()
@@ -38,4 +38,3 @@ Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
 
-aiohttpsession = ClientSession()
