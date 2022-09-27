@@ -1,4 +1,4 @@
-# Powered By @BikashHalder@AdityaHalder
+# Powered By NOBITA 
 
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
