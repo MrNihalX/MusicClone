@@ -1,6 +1,6 @@
 import os
 
-from Nobita.config import autoclean
+from config import autoclean
 
 
 async def auto_clean(popped):
