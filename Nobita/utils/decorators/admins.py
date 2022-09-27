@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Nobita.config import adminlist
-from Nobita.strings import get_string
+from config import adminlist
+from strings import get_string
 from Nobita import app
 from Nobita.misc import SUDOERS
 from Nobita.utils.database import (get_authuser_names, get_cmode,
