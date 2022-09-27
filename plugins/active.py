@@ -7,7 +7,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Nobita.strings import get_command
+from strings import get_command
 from Nobita import app
 from Nobita.misc import SUDOERS
 from Nobita.utils.database.memorydatabase import (
