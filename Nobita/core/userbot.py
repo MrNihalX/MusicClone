@@ -131,7 +131,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"💥 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 3 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐀𝐜𝐜𝐞𝐬𝐬 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🥀. 📌 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐀𝐝𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🌷 𝐚𝐧𝐝  𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 💥"
+                    f"💥 ᴀssɪsᴛᴀɴᴛ 3 ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ʟᴏɢ ɢʀᴏᴜᴘ 🥀. 📌 ᴍᴀᴋᴇ sᴜʀᴜ ʏᴏᴜ ᴀᴅᴅ ᴀsɪsɪᴛᴀɴᴛ ᴛʜᴇ ʟᴏɢs ɢʀᴏᴜᴘ 🌷 ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀ ᴀᴅᴍɪɴ 💥"
                 )
                 sys.exit()
             LOGGER(__name__).info(
@@ -157,11 +157,11 @@ class Userbot(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"🌷 𝐁𝐠𝐭 ✵ 𝐑𝐨𝐛𝐨𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 4 𝐒𝐭𝐚𝐫𝐭𝐞𝐝.\n\n✅ 𝐍𝐚𝐦𝐞 :{self.four.name}\n👑 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.four.username}\n🌷 𝐈𝐝 : {self.four.id}"
+                    config.LOG_GROUP_ID, f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ 4 sᴛᴀʀᴛᴇᴅ  ᴀs .\n\n✅ ɴᴀᴍᴇ :{self.four.name}\n👑 ᴜsᴇʀɴᴀᴍᴇ : @{self.four.username}\n🌷 ɪᴅ : {self.four.id}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"💥 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 4 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐀𝐜𝐜𝐞𝐬𝐬 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🥀. 📌 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐀𝐝𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🌷 𝐚𝐧𝐝  𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 💥"
+                    f"💥 ᴀssɪsᴛᴀɴᴛ 4 ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ʟᴏɢ ɢʀᴏᴜᴘ 🥀. 📌 ᴍᴀᴋᴇ sᴜʀᴜ ʏᴏᴜ ᴀᴅᴅ ᴀsɪsɪᴛᴀɴᴛ ᴛʜᴇ ʟᴏɢs ɢʀᴏᴜᴘ 🌷 ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀ ᴀᴅᴍɪɴ 💥"
                 )
                 sys.exit()
             LOGGER(__name__).info(
@@ -187,11 +187,12 @@ class Userbot(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"🌷 𝐁𝐠𝐭 ✵ 𝐑𝐨𝐛𝐨𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 5 𝐒𝐭𝐚𝐫𝐭𝐞𝐝.\n\n✅ 𝐍𝐚𝐦𝐞 :{self.five.name}\n👑 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞:** @{self.five.username}\n🌷 𝐈𝐝 : {self.five.id}"
+                    config.LOG_GROUP_ID, f"🌷 sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ✵ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ 5 sᴛᴀʀᴛᴇᴅ  ᴀs .\n\n✅ ɴᴀᴍᴇ :{self.five.name}\n👑 ᴜsᴇʀɴᴀᴍᴇ:** @{self.five.username}\n🌷 ɪᴅ : {self.five.id}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"💥 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 5 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐀𝐜𝐜𝐞𝐬𝐬 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🥀. 📌 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐀𝐝𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 🌷 𝐚𝐧𝐝  𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 💥 "
+                    f"💥 ᴀssɪsᴛᴀɴᴛ 5 ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ʟᴏɢ ɢʀᴏᴜᴘ  🥀. 📌 ᴍᴀᴋᴇ sᴜʀᴜ ʏᴏᴜ ᴀᴅᴅ ᴀsɪsɪᴛᴀɴᴛ ᴛʜᴇ ʟᴏɢs ɢʀᴏᴜᴘ 🌷 ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀ ᴀᴅᴍɪɴ 💥"
+
                 )
                 sys.exit()
             LOGGER(__name__).info(
